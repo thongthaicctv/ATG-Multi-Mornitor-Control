@@ -1,0 +1,16 @@
+==================================================
+[MAIN] Khoi dong chuong trinh VLC Signage
+[VALIDATE] OK - tim thay 5 file media.
+[LICENSE] KHONG HOP LE: Chưa cấu hình License Key trong config.json (mục 'license_key').
+[START] Khoi dong VLC voi lenh: C:\Program Files\VideoLAN\VLC\vlc.exe D:\PYTHON\vlc_signage\vlc_signage\playlist.m3u --loop --image-duration=10 --fullscreen --no-video-title-show --extraintf=http --http-host=127.0.0.1 --http-port=8080 --http-password=signage123
+[TRIAL] Che do dung thu - ly do: Chưa cấu hình License Key trong config.json (mục 'license_key').. Se tu dong dung sau 120 giay.
+[WATCH] Dang theo doi thay doi thu muc (watchdog).
+[MAIN] VLC da dong, thoat chuong trinh.
+[LICENSE] Bi thu hoi/het han khi dang chay: License Key đã hết hạn.
+==================================================
+[MAIN] Khoi dong chuong trinh VLC Signage
+[VALIDATE] OK - tim thay 5 file media.
+[LICENSE] OK: License hợp lệ — Cty ABC - Sảnh chính (offline tối đa 60 ngày)
+[START] Khoi dong VLC voi lenh: C:\Program Files\VideoLAN\VLC\vlc.exe D:\PYTHON\ATG Multi Mornitor Control\playlist.m3u --loop --image-duration=10 --fullscreen --no-video-title-show --extraintf=http --http-host=127.0.0.1 --http-port=8080 --http-password=signage123
+[WATCH] Dang theo doi thay doi thu muc (watchdog).
+[MAIN] VLC da dong, thoat chuong trinh.

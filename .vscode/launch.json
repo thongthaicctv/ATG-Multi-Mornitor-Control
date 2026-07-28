@@ -1,0 +1,23 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug: launcher.pyw (chạy VLC nền)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/launcher.pyw",
+      "console": "integratedTerminal",
+      "justMyCode": true,
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "Debug: settings.pyw (giao diện cấu hình)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/settings.pyw",
+      "console": "integratedTerminal",
+      "justMyCode": true,
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}

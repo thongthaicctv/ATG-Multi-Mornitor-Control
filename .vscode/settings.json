@@ -1,0 +1,6 @@
+{
+  "files.associations": {
+    "*.pyw": "python"
+  },
+  "python.analysis.extraPaths": ["${workspaceFolder}"]
+}

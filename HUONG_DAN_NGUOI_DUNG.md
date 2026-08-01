@@ -25,6 +25,7 @@ Mỗi máy tính vận hành độc lập và có thể sử dụng một thư m
 
 - Máy tính chạy Windows.
 - Đã cài VLC Media Player.
+- Đã cài LibreOffice nếu cần phát Word, Excel hoặc PowerPoint. Không cần cài Microsoft Office hoặc WPS Office.
 - Có thư mục chứa video hoặc hình ảnh cần trình chiếu.
 - Nên có kết nối Internet khi kích hoạt hoặc kiểm tra license.
 
@@ -35,7 +36,7 @@ BMP, GIF và WebP.
 
 ### 1. Mở phần mềm
 
-Chạy file `ATG_Signage.exe`.
+Chạy file `ATG Multi Mornitor Control V1.2.4.exe`.
 
 Nếu Windows hiển thị cảnh báo bảo mật, chọn **More info** → **Run anyway** khi file
 được nhận từ Công ty An Nguyên hoặc đơn vị triển khai được ủy quyền.
@@ -55,10 +56,33 @@ C:\Program Files\VideoLAN\VLC\vlc.exe
 
 ### 3. Chọn nội dung trình chiếu
 
-Tại dòng **Thư mục media (video/ảnh)**:
+Tại dòng **Thư mục nguồn**:
 
 1. Nhấn **Chọn...**.
-2. Chọn thư mục chứa video và hình ảnh cần phát.
+2. Chọn thư mục chứa video, hình ảnh, PDF, Word, Excel hoặc PowerPoint.
+
+Tại dòng **Thư mục PLAY**, chọn một thư mục riêng để phần mềm lưu ảnh/video đã xử lý.
+Không chọn PLAY trùng hoặc nằm bên trong thư mục nguồn.
+
+File PDF và Office được tự chuyển từng trang thành PNG trước khi phát. Word, Excel và PowerPoint chỉ
+được chuyển đổi bằng LibreOffice.
+
+### Cài đặt và kiểm tra LibreOffice
+
+1. Tải LibreOffice từ trang chính thức `https://www.libreoffice.org/download/download-libreoffice/`.
+2. Cài đặt theo lựa chọn mặc định của chương trình cài đặt.
+3. Trong ATG Multi Mornitor Control, nhấn **TỰ ĐỘNG TÌM** tại dòng **Đường dẫn LibreOffice**.
+4. Nếu không tự tìm thấy, nhấn **CHỌN SOFFICE.EXE** và chọn một trong các đường dẫn thường dùng:
+
+```text
+C:\Program Files\LibreOffice\program\soffice.exe
+C:\Program Files (x86)\LibreOffice\program\soffice.exe
+```
+
+5. Nhấn **KIỂM TRA**. Chỉ tiếp tục khi phần mềm báo **LibreOffice đã sẵn sàng**.
+
+Không chọn `swriter.exe`, `scalc.exe` hoặc `simpress.exe`. Ảnh, video và PDF gốc vẫn đồng bộ được khi
+chưa cài LibreOffice; riêng tài liệu Word, Excel và PowerPoint sẽ báo lỗi và giữ nguyên dữ liệu PLAY cũ.
 
 Phần mềm sẽ phát các file hợp lệ trong thư mục theo thứ tự tên file. Có thể thêm số vào
 đầu tên file để sắp xếp thứ tự, ví dụ:
@@ -74,6 +98,8 @@ Phần mềm sẽ phát các file hợp lệ trong thư mục theo thứ tự t�
 - **Thời gian hiển thị mỗi ảnh:** nhập số giây muốn hiển thị một hình ảnh.
 - **Lặp lại toàn bộ playlist:** bật để nội dung tự phát lại sau khi chạy hết.
 - **Phát toàn màn hình:** bật để VLC phủ toàn bộ màn hình.
+- **Phát nguyên ảnh:** giữ đúng tỷ lệ và toàn bộ nội dung ảnh/trang tài liệu.
+- **Full màn hình – giữ đủ nội dung:** thu/phóng ảnh chính theo kiểu contain, không cắt chữ hoặc dữ liệu; phần trống được lấp bằng nền mờ đối với ảnh và nền trắng đối với tài liệu.
 
 ### 5. Nhập và kiểm tra license
 

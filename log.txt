@@ -14,3 +14,510 @@
 [START] Khoi dong VLC voi lenh: C:\Program Files\VideoLAN\VLC\vlc.exe D:\PYTHON\ATG Multi Mornitor Control\playlist.m3u --loop --image-duration=10 --fullscreen --no-video-title-show --extraintf=http --http-host=127.0.0.1 --http-port=8080 --http-password=signage123
 [WATCH] Dang theo doi thay doi thu muc (watchdog).
 [MAIN] VLC da dong, thoat chuong trinh.
+2026-07-31 10:49:58,836 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpwp2uoc_j\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpwp2uoc_j\PLAY files=1
+2026-07-31 10:49:58,844 [SYNC] DONE copied=1 converted=0 unchanged=0 deleted=0 failed=0 play=1 elapsed=0.0s
+2026-07-31 10:49:58,860 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpwp2uoc_j\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpwp2uoc_j\PLAY files=1
+2026-07-31 10:49:58,865 [SYNC] DONE copied=0 converted=0 unchanged=1 deleted=0 failed=0 play=1 elapsed=0.0s
+2026-07-31 10:49:58,879 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpwp2uoc_j\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpwp2uoc_j\PLAY files=1
+2026-07-31 10:49:58,885 [SYNC] DONE copied=1 converted=0 unchanged=0 deleted=0 failed=0 play=1 elapsed=0.0s
+2026-07-31 10:49:58,899 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpwp2uoc_j\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpwp2uoc_j\PLAY files=0
+2026-07-31 10:49:58,906 [SYNC] DONE copied=0 converted=0 unchanged=0 deleted=1 failed=0 play=0 elapsed=0.0s
+2026-07-31 10:49:58,918 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmplcz3kuw2\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmplcz3kuw2\PLAY files=1
+2026-07-31 10:49:58,925 [SYNC] DONE copied=1 converted=0 unchanged=0 deleted=0 failed=0 play=1 elapsed=0.0s
+2026-07-31 10:49:58,957 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmp2r3g570t\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmp2r3g570t\PLAY files=1
+2026-07-31 10:49:59,030 [SYNC] DONE copied=0 converted=1 unchanged=0 deleted=0 failed=0 play=3 elapsed=0.1s
+2026-07-31 10:50:21,638 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\atg-office-test-cb2b71f2557741879cba21e90ed23bc8\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\atg-office-test-cb2b71f2557741879cba21e90ed23bc8\PLAY files=1
+2026-07-31 10:50:25,702 [SYNC] DONE copied=0 converted=1 unchanged=0 deleted=0 failed=0 play=21 elapsed=4.1s
+2026-07-31 10:50:40,268 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\atg-office-suite-8a92894a6a30439db5d40d5db2ff0876\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\atg-office-suite-8a92894a6a30439db5d40d5db2ff0876\PLAY files=2
+2026-07-31 10:51:02,199 [SYNC] DONE copied=0 converted=2 unchanged=0 deleted=0 failed=0 play=2 elapsed=21.9s
+2026-07-31 10:56:56,278 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmp8x_oo_77\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmp8x_oo_77\PLAY files=1
+2026-07-31 10:56:56,285 [SYNC] DONE copied=1 converted=0 unchanged=0 deleted=0 failed=0 play=1 elapsed=0.0s
+2026-07-31 10:56:56,297 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmp8x_oo_77\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmp8x_oo_77\PLAY files=1
+2026-07-31 10:56:56,302 [SYNC] DONE copied=0 converted=0 unchanged=1 deleted=0 failed=0 play=1 elapsed=0.0s
+2026-07-31 10:56:56,316 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmp8x_oo_77\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmp8x_oo_77\PLAY files=1
+2026-07-31 10:56:56,324 [SYNC] DONE copied=1 converted=0 unchanged=0 deleted=0 failed=0 play=1 elapsed=0.0s
+2026-07-31 10:56:56,337 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmp8x_oo_77\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmp8x_oo_77\PLAY files=0
+2026-07-31 10:56:56,342 [SYNC] DONE copied=0 converted=0 unchanged=0 deleted=1 failed=0 play=0 elapsed=0.0s
+2026-07-31 10:56:56,354 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmp5psoglu0\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmp5psoglu0\PLAY files=1
+2026-07-31 10:56:56,360 [SYNC] DONE copied=1 converted=0 unchanged=0 deleted=0 failed=0 play=1 elapsed=0.0s
+2026-07-31 10:56:56,391 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpb6wtpfwj\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpb6wtpfwj\PLAY files=1
+2026-07-31 10:56:56,463 [SYNC] DONE copied=0 converted=1 unchanged=0 deleted=0 failed=0 play=3 elapsed=0.1s
+2026-07-31 10:56:56,476 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpb6wtpfwj\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpb6wtpfwj\PLAY files=1
+2026-07-31 10:56:56,489 [SYNC] ERROR Thông báo.pdf: Failed to open file 'C:\\Users\\BUIDUYTHONG-LAP\\AppData\\Local\\Temp\\tmpb6wtpfwj\\SOURCE\\Thông báo.pdf' as type pdf.
+2026-07-31 10:56:56,495 [SYNC] DONE copied=0 converted=0 unchanged=0 deleted=0 failed=1 play=3 elapsed=0.0s
+2026-07-31 10:58:43,894 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpm8c19qy8\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpm8c19qy8\PLAY files=1
+2026-07-31 10:58:43,901 [SYNC] DONE copied=1 converted=0 unchanged=0 deleted=0 failed=0 play=1 elapsed=0.0s
+2026-07-31 10:58:43,916 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpm8c19qy8\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpm8c19qy8\PLAY files=1
+2026-07-31 10:58:43,920 [SYNC] DONE copied=0 converted=0 unchanged=1 deleted=0 failed=0 play=1 elapsed=0.0s
+2026-07-31 10:58:43,935 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpm8c19qy8\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpm8c19qy8\PLAY files=1
+2026-07-31 10:58:43,943 [SYNC] DONE copied=1 converted=0 unchanged=0 deleted=0 failed=0 play=1 elapsed=0.0s
+2026-07-31 10:58:43,961 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpm8c19qy8\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpm8c19qy8\PLAY files=0
+2026-07-31 10:58:43,967 [SYNC] DONE copied=0 converted=0 unchanged=0 deleted=1 failed=0 play=0 elapsed=0.0s
+2026-07-31 10:58:43,977 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmp3qr7vogj\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmp3qr7vogj\PLAY files=1
+2026-07-31 10:58:43,984 [SYNC] DONE copied=1 converted=0 unchanged=0 deleted=0 failed=0 play=1 elapsed=0.0s
+2026-07-31 10:58:44,021 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpvd72h3l8\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpvd72h3l8\PLAY files=1
+2026-07-31 10:58:44,088 [SYNC] DONE copied=0 converted=1 unchanged=0 deleted=0 failed=0 play=3 elapsed=0.1s
+2026-07-31 10:58:44,100 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpvd72h3l8\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpvd72h3l8\PLAY files=1
+2026-07-31 10:58:44,104 [SYNC] ERROR Thông báo.pdf: Failed to open file 'C:\\Users\\BUIDUYTHONG-LAP\\AppData\\Local\\Temp\\tmpvd72h3l8\\SOURCE\\Thông báo.pdf' as type pdf.
+2026-07-31 10:58:44,112 [SYNC] DONE copied=0 converted=0 unchanged=0 deleted=0 failed=1 play=3 elapsed=0.0s
+2026-08-01 09:24:59,709 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpamaagzl6\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpamaagzl6\PLAY files=2
+2026-08-01 09:24:59,772 [IMAGE] poster.png mode=keep portrait=True rotated=False degrees=0 50x90->50x90
+2026-08-01 09:24:59,780 [SYNC] DONE copied=2 converted=0 unchanged=0 deleted=0 failed=0 play=2 elapsed=0.1s
+2026-08-01 09:25:00,241 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmp_6jh4i36\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmp_6jh4i36\PLAY files=1
+2026-08-01 09:25:00,248 [SYNC] DONE copied=1 converted=0 unchanged=0 deleted=0 failed=0 play=1 elapsed=0.0s
+2026-08-01 09:25:00,263 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmp_6jh4i36\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmp_6jh4i36\PLAY files=1
+2026-08-01 09:25:00,273 [SYNC] DONE copied=0 converted=0 unchanged=1 deleted=0 failed=0 play=1 elapsed=0.0s
+2026-08-01 09:25:00,287 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmp_6jh4i36\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmp_6jh4i36\PLAY files=1
+2026-08-01 09:25:00,299 [SYNC] DONE copied=1 converted=0 unchanged=0 deleted=0 failed=0 play=1 elapsed=0.0s
+2026-08-01 09:25:00,316 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmp_6jh4i36\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmp_6jh4i36\PLAY files=0
+2026-08-01 09:25:00,327 [SYNC] DONE copied=0 converted=0 unchanged=0 deleted=1 failed=0 play=0 elapsed=0.0s
+2026-08-01 09:25:00,342 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmp43sr8gfu\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmp43sr8gfu\PLAY files=1
+2026-08-01 09:25:00,352 [SYNC] DONE copied=1 converted=0 unchanged=0 deleted=0 failed=0 play=1 elapsed=0.0s
+2026-08-01 09:25:00,415 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpla8iq9zf\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpla8iq9zf\PLAY files=1
+2026-08-01 09:25:00,520 [IMAGE] Thông báo__page_0001.png mode=keep portrait=True rotated=False degrees=0 595x842->595x842
+2026-08-01 09:25:00,554 [IMAGE] Thông báo__page_0002.png mode=keep portrait=True rotated=False degrees=0 595x842->595x842
+2026-08-01 09:25:00,593 [IMAGE] Thông báo__page_0003.png mode=keep portrait=True rotated=False degrees=0 595x842->595x842
+2026-08-01 09:25:00,604 [SYNC] DONE copied=0 converted=1 unchanged=0 deleted=0 failed=0 play=3 elapsed=0.2s
+2026-08-01 09:25:00,620 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpla8iq9zf\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpla8iq9zf\PLAY files=1
+2026-08-01 09:25:00,635 [SYNC] ERROR Thông báo.pdf: Failed to open file 'C:\\Users\\BUIDUYTHONG-LAP\\AppData\\Local\\Temp\\tmpla8iq9zf\\SOURCE\\Thông báo.pdf' as type pdf.
+2026-08-01 09:25:00,645 [SYNC] DONE copied=0 converted=0 unchanged=0 deleted=0 failed=1 play=3 elapsed=0.0s
+2026-08-01 09:25:00,768 [IMAGE] portrait.png mode=keep portrait=True rotated=False degrees=0 60x100->60x100
+2026-08-01 09:25:00,785 [IMAGE] portrait.png mode=rotate portrait=True rotated=True degrees=-90 60x100->100x60
+2026-08-01 09:25:00,789 [IMAGE] portrait.png mode=rotate portrait=True rotated=True degrees=90 60x100->100x60
+2026-08-01 09:25:00,811 [IMAGE] landscape.png mode=rotate portrait=False rotated=False degrees=0 100x60->100x60
+2026-08-01 09:25:00,828 [IMAGE] square.png mode=rotate portrait=False rotated=False degrees=0 80x80->80x80
+2026-08-01 09:25:08,857 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmp34sbvle7\S PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmp34sbvle7\P files=2
+2026-08-01 09:25:08,914 [IMAGE] poster.png mode=keep portrait=True rotated=False degrees=0 50x90->50x90
+2026-08-01 09:25:08,924 [SYNC] DONE copied=2 converted=0 unchanged=0 deleted=0 failed=0 play=2 elapsed=0.1s
+2026-08-01 09:25:24,849 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmp40nhjwgh\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmp40nhjwgh\PLAY files=2
+2026-08-01 09:25:24,883 [IMAGE] poster.png mode=keep portrait=True rotated=False degrees=0 50x90->50x90
+2026-08-01 09:25:24,894 [SYNC] DONE copied=2 converted=0 unchanged=0 deleted=0 failed=0 play=2 elapsed=0.1s
+2026-08-01 09:25:24,919 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmp40nhjwgh\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmp40nhjwgh\PLAY files=2
+2026-08-01 09:25:24,942 [IMAGE] poster.png mode=rotate portrait=True rotated=True degrees=-90 50x90->90x50
+2026-08-01 09:25:24,953 [SYNC] DONE copied=1 converted=0 unchanged=1 deleted=0 failed=0 play=2 elapsed=0.0s
+2026-08-01 09:25:24,978 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpksszibhv\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpksszibhv\PLAY files=1
+2026-08-01 09:25:24,989 [SYNC] DONE copied=1 converted=0 unchanged=0 deleted=0 failed=0 play=1 elapsed=0.0s
+2026-08-01 09:25:25,016 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpksszibhv\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpksszibhv\PLAY files=1
+2026-08-01 09:25:25,026 [SYNC] DONE copied=0 converted=0 unchanged=1 deleted=0 failed=0 play=1 elapsed=0.0s
+2026-08-01 09:25:25,056 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpksszibhv\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpksszibhv\PLAY files=1
+2026-08-01 09:25:25,115 [SYNC] DONE copied=1 converted=0 unchanged=0 deleted=0 failed=0 play=1 elapsed=0.1s
+2026-08-01 09:25:25,136 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpksszibhv\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpksszibhv\PLAY files=0
+2026-08-01 09:25:25,145 [SYNC] DONE copied=0 converted=0 unchanged=0 deleted=1 failed=0 play=0 elapsed=0.0s
+2026-08-01 09:25:25,164 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpp4j5bohf\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpp4j5bohf\PLAY files=1
+2026-08-01 09:25:25,175 [SYNC] DONE copied=1 converted=0 unchanged=0 deleted=0 failed=0 play=1 elapsed=0.0s
+2026-08-01 09:25:25,242 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmp77r88n1j\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmp77r88n1j\PLAY files=1
+2026-08-01 09:25:25,364 [IMAGE] Thông báo__page_0001.png mode=keep portrait=True rotated=False degrees=0 595x842->595x842
+2026-08-01 09:25:25,389 [IMAGE] Thông báo__page_0002.png mode=keep portrait=True rotated=False degrees=0 595x842->595x842
+2026-08-01 09:25:25,414 [IMAGE] Thông báo__page_0003.png mode=keep portrait=True rotated=False degrees=0 595x842->595x842
+2026-08-01 09:25:25,430 [SYNC] DONE copied=0 converted=1 unchanged=0 deleted=0 failed=0 play=3 elapsed=0.2s
+2026-08-01 09:25:25,457 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmp77r88n1j\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmp77r88n1j\PLAY files=1
+2026-08-01 09:25:25,466 [SYNC] ERROR Thông báo.pdf: Failed to open file 'C:\\Users\\BUIDUYTHONG-LAP\\AppData\\Local\\Temp\\tmp77r88n1j\\SOURCE\\Thông báo.pdf' as type pdf.
+2026-08-01 09:25:25,482 [SYNC] DONE copied=0 converted=0 unchanged=0 deleted=0 failed=1 play=3 elapsed=0.0s
+2026-08-01 09:25:25,628 [IMAGE] portrait.png mode=keep portrait=True rotated=False degrees=0 60x100->60x100
+2026-08-01 09:25:25,635 [IMAGE] portrait.png mode=rotate portrait=True rotated=True degrees=-90 60x100->100x60
+2026-08-01 09:25:25,647 [IMAGE] portrait.png mode=rotate portrait=True rotated=True degrees=90 60x100->100x60
+2026-08-01 09:25:25,665 [IMAGE] landscape.png mode=rotate portrait=False rotated=False degrees=0 100x60->100x60
+2026-08-01 09:25:25,675 [IMAGE] square.png mode=rotate portrait=False rotated=False degrees=0 80x80->80x80
+2026-08-01 09:27:35,067 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmp9sw42zou\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmp9sw42zou\PLAY files=2
+2026-08-01 09:27:35,113 [IMAGE] poster.png mode=keep portrait=True rotated=False degrees=0 50x90->50x90
+2026-08-01 09:27:35,122 [SYNC] DONE copied=2 converted=0 unchanged=0 deleted=0 failed=0 play=2 elapsed=0.1s
+2026-08-01 09:27:35,147 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmp9sw42zou\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmp9sw42zou\PLAY files=2
+2026-08-01 09:27:35,172 [IMAGE] poster.png mode=rotate portrait=True rotated=True degrees=-90 50x90->90x50
+2026-08-01 09:27:35,179 [SYNC] DONE copied=1 converted=0 unchanged=1 deleted=0 failed=0 play=2 elapsed=0.0s
+2026-08-01 09:27:35,212 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpbzfyseu3\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpbzfyseu3\PLAY files=1
+2026-08-01 09:27:35,223 [SYNC] DONE copied=1 converted=0 unchanged=0 deleted=0 failed=0 play=1 elapsed=0.0s
+2026-08-01 09:27:35,247 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpbzfyseu3\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpbzfyseu3\PLAY files=1
+2026-08-01 09:27:35,252 [SYNC] DONE copied=0 converted=0 unchanged=1 deleted=0 failed=0 play=1 elapsed=0.0s
+2026-08-01 09:27:35,268 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpbzfyseu3\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpbzfyseu3\PLAY files=1
+2026-08-01 09:27:35,277 [SYNC] DONE copied=1 converted=0 unchanged=0 deleted=0 failed=0 play=1 elapsed=0.0s
+2026-08-01 09:27:35,302 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpbzfyseu3\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpbzfyseu3\PLAY files=0
+2026-08-01 09:27:35,312 [SYNC] DONE copied=0 converted=0 unchanged=0 deleted=1 failed=0 play=0 elapsed=0.0s
+2026-08-01 09:27:35,333 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpdn0gei_b\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpdn0gei_b\PLAY files=1
+2026-08-01 09:27:35,344 [SYNC] DONE copied=1 converted=0 unchanged=0 deleted=0 failed=0 play=1 elapsed=0.0s
+2026-08-01 09:27:35,421 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmp8vmgauq5\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmp8vmgauq5\PLAY files=1
+2026-08-01 09:27:35,604 [IMAGE] Thông báo__page_0001.png mode=keep portrait=True rotated=False degrees=0 595x842->595x842
+2026-08-01 09:27:35,659 [IMAGE] Thông báo__page_0002.png mode=keep portrait=True rotated=False degrees=0 595x842->595x842
+2026-08-01 09:27:35,721 [IMAGE] Thông báo__page_0003.png mode=keep portrait=True rotated=False degrees=0 595x842->595x842
+2026-08-01 09:27:35,739 [SYNC] DONE copied=0 converted=1 unchanged=0 deleted=0 failed=0 play=3 elapsed=0.3s
+2026-08-01 09:27:35,766 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmp8vmgauq5\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmp8vmgauq5\PLAY files=1
+2026-08-01 09:27:35,790 [SYNC] ERROR Thông báo.pdf: Failed to open file 'C:\\Users\\BUIDUYTHONG-LAP\\AppData\\Local\\Temp\\tmp8vmgauq5\\SOURCE\\Thông báo.pdf' as type pdf.
+2026-08-01 09:27:35,803 [SYNC] DONE copied=0 converted=0 unchanged=0 deleted=0 failed=1 play=3 elapsed=0.1s
+2026-08-01 09:27:35,946 [IMAGE] portrait.png mode=keep portrait=True rotated=False degrees=0 60x100->60x100
+2026-08-01 09:27:35,972 [IMAGE] portrait.png mode=rotate portrait=True rotated=True degrees=-90 60x100->100x60
+2026-08-01 09:27:35,980 [IMAGE] portrait.png mode=rotate portrait=True rotated=True degrees=90 60x100->100x60
+2026-08-01 09:27:36,008 [IMAGE] landscape.png mode=rotate portrait=False rotated=False degrees=0 100x60->100x60
+2026-08-01 09:27:36,034 [IMAGE] square.png mode=rotate portrait=False rotated=False degrees=0 80x80->80x80
+2026-08-01 10:13:45,170 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmppr0204sa\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmppr0204sa\PLAY files=2
+2026-08-01 10:13:45,207 [IMAGE] poster.png mode=original portrait=True 50x90->50x90
+2026-08-01 10:13:45,214 [SYNC] DONE copied=2 converted=0 unchanged=0 deleted=0 failed=0 play=2 elapsed=0.1s
+2026-08-01 10:13:45,233 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmppr0204sa\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmppr0204sa\PLAY files=2
+2026-08-01 10:13:45,234 [SYNC] DOCUMENT CROP START poster.png target=90x50
+2026-08-01 10:13:45,248 [IMAGE] poster.png mode=crop_fill portrait=True 50x90->90x50
+2026-08-01 10:13:45,248 [SYNC] DOCUMENT CROP SUCCESS poster.png
+2026-08-01 10:13:45,254 [SYNC] DONE copied=1 converted=0 unchanged=1 deleted=0 failed=0 play=2 elapsed=0.0s
+2026-08-01 10:13:45,283 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpa43iat72\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpa43iat72\PLAY files=1
+2026-08-01 10:13:45,291 [SYNC] DONE copied=1 converted=0 unchanged=0 deleted=0 failed=0 play=1 elapsed=0.0s
+2026-08-01 10:13:45,310 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpa43iat72\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpa43iat72\PLAY files=1
+2026-08-01 10:13:45,317 [SYNC] DONE copied=0 converted=0 unchanged=1 deleted=0 failed=0 play=1 elapsed=0.0s
+2026-08-01 10:13:45,333 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpa43iat72\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpa43iat72\PLAY files=1
+2026-08-01 10:13:45,343 [SYNC] DONE copied=1 converted=0 unchanged=0 deleted=0 failed=0 play=1 elapsed=0.0s
+2026-08-01 10:13:45,372 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpa43iat72\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpa43iat72\PLAY files=0
+2026-08-01 10:13:45,382 [SYNC] DONE copied=0 converted=0 unchanged=0 deleted=1 failed=0 play=0 elapsed=0.0s
+2026-08-01 10:13:45,391 [SYNC] LIBREOFFICE SEARCH START
+2026-08-01 10:13:45,392 [SYNC] LIBREOFFICE CANDIDATE C:\Users\BUIDUY~1\AppData\Local\Temp\tmp6ov32jpz\soffice.exe
+2026-08-01 10:13:45,393 [SYNC] LIBREOFFICE SELECTED C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmp6ov32jpz\soffice.exe
+2026-08-01 10:13:45,395 [SYNC] LIBREOFFICE SEARCH START
+2026-08-01 10:13:45,396 [SYNC] LIBREOFFICE CANDIDATE C:\Users\BUIDUY~1\AppData\Local\Temp\tmp6ov32jpz\wpsoffice.exe
+2026-08-01 10:13:45,396 [SYNC] LIBREOFFICE CANDIDATE C:\Program Files\LibreOffice\program\soffice.exe
+2026-08-01 10:13:45,397 [SYNC] LIBREOFFICE SELECTED C:\Program Files\LibreOffice\program\soffice.exe
+2026-08-01 10:13:45,634 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmphtc90tte\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmphtc90tte\PLAY files=1
+2026-08-01 10:13:45,644 [SYNC] DONE copied=1 converted=0 unchanged=0 deleted=0 failed=0 play=1 elapsed=0.0s
+2026-08-01 10:13:45,700 [IMAGE] portrait.png mode=original portrait=True 60x100->60x100
+2026-08-01 10:13:45,700 [SYNC] DOCUMENT CROP START portrait.png target=160x90
+2026-08-01 10:13:45,719 [IMAGE] portrait.png mode=crop_fill portrait=True 60x100->160x90
+2026-08-01 10:13:45,719 [SYNC] DOCUMENT CROP SUCCESS portrait.png
+2026-08-01 10:13:45,774 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpdrp126pe\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpdrp126pe\PLAY files=1
+2026-08-01 10:13:45,775 [SYNC] PDF RENDER START C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpdrp126pe\SOURCE\Thông báo.pdf
+2026-08-01 10:13:45,853 [SYNC] PDF RENDER SUCCESS Thông báo.pdf pages=3
+2026-08-01 10:13:45,896 [IMAGE] Thông báo__page_0001.png mode=original portrait=True 595x842->595x842
+2026-08-01 10:13:45,972 [IMAGE] Thông báo__page_0002.png mode=original portrait=True 595x842->595x842
+2026-08-01 10:13:46,048 [IMAGE] Thông báo__page_0003.png mode=original portrait=True 595x842->595x842
+2026-08-01 10:13:46,052 [SYNC] DOCUMENT OUTPUT REPLACED C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpdrp126pe\PLAY\Thông báo__pages
+2026-08-01 10:13:46,069 [SYNC] DONE copied=0 converted=1 unchanged=0 deleted=0 failed=0 play=3 elapsed=0.3s
+2026-08-01 10:13:46,096 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpdrp126pe\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpdrp126pe\PLAY files=1
+2026-08-01 10:13:46,097 [SYNC] PDF RENDER START C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpdrp126pe\SOURCE\Thông báo.pdf
+2026-08-01 10:13:46,115 [SYNC] ERROR Thông báo.pdf: Failed to open file 'C:\\Users\\BUIDUYTHONG-LAP\\AppData\\Local\\Temp\\tmpdrp126pe\\SOURCE\\Thông báo.pdf' as type pdf.
+2026-08-01 10:13:46,124 [SYNC] DONE copied=0 converted=0 unchanged=0 deleted=0 failed=1 play=3 elapsed=0.1s
+2026-08-01 10:14:10,400 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmp3oa6d_ty\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmp3oa6d_ty\PLAY files=2
+2026-08-01 10:14:10,437 [IMAGE] poster.png mode=original portrait=True 50x90->50x90
+2026-08-01 10:14:10,446 [SYNC] DONE copied=2 converted=0 unchanged=0 deleted=0 failed=0 play=2 elapsed=0.1s
+2026-08-01 10:14:10,468 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmp3oa6d_ty\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmp3oa6d_ty\PLAY files=2
+2026-08-01 10:14:10,470 [SYNC] DOCUMENT CROP START poster.png target=90x50
+2026-08-01 10:14:10,477 [IMAGE] poster.png mode=crop_fill portrait=True 50x90->90x50
+2026-08-01 10:14:10,478 [SYNC] DOCUMENT CROP SUCCESS poster.png
+2026-08-01 10:14:10,485 [SYNC] DONE copied=1 converted=0 unchanged=1 deleted=0 failed=0 play=2 elapsed=0.0s
+2026-08-01 10:14:10,508 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpz9qq64b2\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpz9qq64b2\PLAY files=1
+2026-08-01 10:14:10,519 [SYNC] DONE copied=1 converted=0 unchanged=0 deleted=0 failed=0 play=1 elapsed=0.0s
+2026-08-01 10:14:10,543 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpz9qq64b2\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpz9qq64b2\PLAY files=1
+2026-08-01 10:14:10,549 [SYNC] DONE copied=0 converted=0 unchanged=1 deleted=0 failed=0 play=1 elapsed=0.0s
+2026-08-01 10:14:10,565 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpz9qq64b2\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpz9qq64b2\PLAY files=1
+2026-08-01 10:14:10,576 [SYNC] DONE copied=1 converted=0 unchanged=0 deleted=0 failed=0 play=1 elapsed=0.0s
+2026-08-01 10:14:10,602 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpz9qq64b2\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpz9qq64b2\PLAY files=0
+2026-08-01 10:14:10,611 [SYNC] DONE copied=0 converted=0 unchanged=0 deleted=1 failed=0 play=0 elapsed=0.0s
+2026-08-01 10:14:10,619 [SYNC] LIBREOFFICE SEARCH START
+2026-08-01 10:14:10,620 [SYNC] LIBREOFFICE CANDIDATE C:\Users\BUIDUY~1\AppData\Local\Temp\tmpzhp_ajtx\soffice.exe
+2026-08-01 10:14:10,621 [SYNC] LIBREOFFICE SELECTED C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpzhp_ajtx\soffice.exe
+2026-08-01 10:14:10,623 [SYNC] LIBREOFFICE SEARCH START
+2026-08-01 10:14:10,624 [SYNC] LIBREOFFICE CANDIDATE C:\Users\BUIDUY~1\AppData\Local\Temp\tmpzhp_ajtx\wpsoffice.exe
+2026-08-01 10:14:10,624 [SYNC] LIBREOFFICE CANDIDATE C:\Program Files\LibreOffice\program\soffice.exe
+2026-08-01 10:14:10,625 [SYNC] LIBREOFFICE SELECTED C:\Program Files\LibreOffice\program\soffice.exe
+2026-08-01 10:14:10,644 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpj6k7w4y2\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpj6k7w4y2\PLAY files=1
+2026-08-01 10:14:10,654 [SYNC] DONE copied=1 converted=0 unchanged=0 deleted=0 failed=0 play=1 elapsed=0.0s
+2026-08-01 10:14:10,704 [IMAGE] portrait.png mode=original portrait=True 60x100->60x100
+2026-08-01 10:14:10,705 [SYNC] DOCUMENT CROP START portrait.png target=160x90
+2026-08-01 10:14:10,711 [IMAGE] portrait.png mode=crop_fill portrait=True 60x100->160x90
+2026-08-01 10:14:10,711 [SYNC] DOCUMENT CROP SUCCESS portrait.png
+2026-08-01 10:14:10,749 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmphzm__k_9\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmphzm__k_9\PLAY files=1
+2026-08-01 10:14:10,751 [SYNC] PDF RENDER START C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmphzm__k_9\SOURCE\Thông báo.pdf
+2026-08-01 10:14:10,859 [SYNC] PDF RENDER SUCCESS Thông báo.pdf pages=3
+2026-08-01 10:14:10,893 [IMAGE] Thông báo__page_0001.png mode=original portrait=True 595x842->595x842
+2026-08-01 10:14:10,922 [IMAGE] Thông báo__page_0002.png mode=original portrait=True 595x842->595x842
+2026-08-01 10:14:10,959 [IMAGE] Thông báo__page_0003.png mode=original portrait=True 595x842->595x842
+2026-08-01 10:14:10,973 [SYNC] DOCUMENT OUTPUT REPLACED C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmphzm__k_9\PLAY\Thông báo__pages
+2026-08-01 10:14:10,990 [SYNC] DONE copied=0 converted=1 unchanged=0 deleted=0 failed=0 play=3 elapsed=0.3s
+2026-08-01 10:14:11,027 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmphzm__k_9\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmphzm__k_9\PLAY files=1
+2026-08-01 10:14:11,031 [SYNC] PDF RENDER START C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmphzm__k_9\SOURCE\Thông báo.pdf
+2026-08-01 10:14:11,037 [SYNC] ERROR Thông báo.pdf: Failed to open file 'C:\\Users\\BUIDUYTHONG-LAP\\AppData\\Local\\Temp\\tmphzm__k_9\\SOURCE\\Thông báo.pdf' as type pdf.
+2026-08-01 10:14:11,053 [SYNC] DONE copied=0 converted=0 unchanged=0 deleted=0 failed=1 play=3 elapsed=0.1s
+2026-08-01 10:14:12,279 [SYNC] LIBREOFFICE SEARCH START
+2026-08-01 10:14:12,280 [SYNC] LIBREOFFICE CANDIDATE C:\Program Files\LibreOffice\program\soffice.exe
+2026-08-01 10:14:12,281 [SYNC] LIBREOFFICE SELECTED C:\Program Files\LibreOffice\program\soffice.exe
+2026-08-01 10:14:27,307 [SYNC] LIBREOFFICE CONVERT FAILED validate: Command '['C:\\Program Files\\LibreOffice\\program\\soffice.exe', '--headless', '--version']' timed out after 15 seconds
+2026-08-01 10:14:46,209 [SYNC] LIBREOFFICE SEARCH START
+2026-08-01 10:14:46,210 [SYNC] LIBREOFFICE CANDIDATE C:\Program Files\LibreOffice\program\soffice.exe
+2026-08-01 10:14:46,210 [SYNC] LIBREOFFICE SELECTED C:\Program Files\LibreOffice\program\soffice.exe
+2026-08-01 10:15:01,254 [SYNC] LIBREOFFICE CONVERT FAILED validate: Command '['C:\\Program Files\\LibreOffice\\program\\soffice.exe', '-env:UserInstallation=file:///C:/Users/BUIDUYTHONG-LAP/AppData/Local/Temp/atg-lo-check-x_wm961p', '--headless', '--version']' timed out after 15 seconds
+2026-08-01 10:15:47,546 [SYNC] LIBREOFFICE CONVERT START D:\PYTHON\ATG Multi Mornitor Control\phase 1.2.2 chuyen s? d?ng libre office.docx
+2026-08-01 10:15:47,547 [SYNC] LIBREOFFICE COMMAND "C:\Program Files\LibreOffice\program\soffice.exe" -env:UserInstallation=file:///C:/Users/BUIDUYTHONG-LAP/AppData/Local/Temp/tmp6c7fvdkp/lo_profile_c6d120989f9340a2ab4a7b17dfab80ed --headless --nologo --nodefault --nofirststartwizard --nolockcheck --convert-to pdf --outdir C:\Users\BUIDUY~1\AppData\Local\Temp\tmp6c7fvdkp "D:\PYTHON\ATG Multi Mornitor Control\phase 1.2.2 chuyen s? d?ng libre office.docx"
+2026-08-01 10:16:47,585 [SYNC] LIBREOFFICE TIMEOUT phase 1.2.2 chuyen s? d?ng libre office.docx
+2026-08-01 10:18:04,939 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpqfdjxjg5\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpqfdjxjg5\PLAY files=2
+2026-08-01 10:18:04,957 [IMAGE] poster.png mode=original portrait=True 50x90->50x90
+2026-08-01 10:18:04,963 [SYNC] DONE copied=2 converted=0 unchanged=0 deleted=0 failed=0 play=2 elapsed=0.0s
+2026-08-01 10:18:04,977 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpqfdjxjg5\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpqfdjxjg5\PLAY files=2
+2026-08-01 10:18:04,978 [SYNC] DOCUMENT CROP START poster.png target=90x50
+2026-08-01 10:18:04,982 [IMAGE] poster.png mode=crop_fill portrait=True 50x90->90x50
+2026-08-01 10:18:04,982 [SYNC] DOCUMENT CROP SUCCESS poster.png
+2026-08-01 10:18:04,988 [SYNC] DONE copied=1 converted=0 unchanged=1 deleted=0 failed=0 play=2 elapsed=0.0s
+2026-08-01 10:18:05,003 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpdi_58pcc\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpdi_58pcc\PLAY files=1
+2026-08-01 10:18:05,012 [SYNC] DONE copied=1 converted=0 unchanged=0 deleted=0 failed=0 play=1 elapsed=0.0s
+2026-08-01 10:18:05,027 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpdi_58pcc\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpdi_58pcc\PLAY files=1
+2026-08-01 10:18:05,032 [SYNC] DONE copied=0 converted=0 unchanged=1 deleted=0 failed=0 play=1 elapsed=0.0s
+2026-08-01 10:18:05,047 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpdi_58pcc\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpdi_58pcc\PLAY files=1
+2026-08-01 10:18:05,055 [SYNC] DONE copied=1 converted=0 unchanged=0 deleted=0 failed=0 play=1 elapsed=0.0s
+2026-08-01 10:18:05,071 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpdi_58pcc\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpdi_58pcc\PLAY files=0
+2026-08-01 10:18:05,078 [SYNC] DONE copied=0 converted=0 unchanged=0 deleted=1 failed=0 play=0 elapsed=0.0s
+2026-08-01 10:18:05,083 [SYNC] LIBREOFFICE SEARCH START
+2026-08-01 10:18:05,083 [SYNC] LIBREOFFICE CANDIDATE C:\Users\BUIDUY~1\AppData\Local\Temp\tmp0e5sa2lv\soffice.exe
+2026-08-01 10:18:05,084 [SYNC] LIBREOFFICE SELECTED C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmp0e5sa2lv\soffice.exe
+2026-08-01 10:18:05,085 [SYNC] LIBREOFFICE SEARCH START
+2026-08-01 10:18:05,086 [SYNC] LIBREOFFICE CANDIDATE C:\Users\BUIDUY~1\AppData\Local\Temp\tmp0e5sa2lv\wpsoffice.exe
+2026-08-01 10:18:05,086 [SYNC] LIBREOFFICE CANDIDATE C:\Program Files\LibreOffice\program\soffice.exe
+2026-08-01 10:18:05,087 [SYNC] LIBREOFFICE SELECTED C:\Program Files\LibreOffice\program\soffice.exe
+2026-08-01 10:18:05,100 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpo11_fby6\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpo11_fby6\PLAY files=1
+2026-08-01 10:18:05,107 [SYNC] DONE copied=1 converted=0 unchanged=0 deleted=0 failed=0 play=1 elapsed=0.0s
+2026-08-01 10:18:05,142 [IMAGE] portrait.png mode=original portrait=True 60x100->60x100
+2026-08-01 10:18:05,144 [SYNC] DOCUMENT CROP START portrait.png target=160x90
+2026-08-01 10:18:05,150 [IMAGE] portrait.png mode=crop_fill portrait=True 60x100->160x90
+2026-08-01 10:18:05,150 [SYNC] DOCUMENT CROP SUCCESS portrait.png
+2026-08-01 10:18:05,176 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpcgcpds1i\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpcgcpds1i\PLAY files=1
+2026-08-01 10:18:05,178 [SYNC] PDF RENDER START C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpcgcpds1i\SOURCE\Thông báo.pdf
+2026-08-01 10:18:05,294 [SYNC] PDF RENDER SUCCESS Thông báo.pdf pages=3
+2026-08-01 10:18:05,317 [IMAGE] Thông báo__page_0001.png mode=original portrait=True 595x842->595x842
+2026-08-01 10:18:05,333 [IMAGE] Thông báo__page_0002.png mode=original portrait=True 595x842->595x842
+2026-08-01 10:18:05,354 [IMAGE] Thông báo__page_0003.png mode=original portrait=True 595x842->595x842
+2026-08-01 10:18:05,357 [SYNC] DOCUMENT OUTPUT REPLACED C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpcgcpds1i\PLAY\Thông báo__pages
+2026-08-01 10:18:05,365 [SYNC] DONE copied=0 converted=1 unchanged=0 deleted=0 failed=0 play=3 elapsed=0.2s
+2026-08-01 10:18:05,379 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpcgcpds1i\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpcgcpds1i\PLAY files=1
+2026-08-01 10:18:05,380 [SYNC] PDF RENDER START C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpcgcpds1i\SOURCE\Thông báo.pdf
+2026-08-01 10:18:05,383 [SYNC] ERROR Thông báo.pdf: Failed to open file 'C:\\Users\\BUIDUYTHONG-LAP\\AppData\\Local\\Temp\\tmpcgcpds1i\\SOURCE\\Thông báo.pdf' as type pdf.
+2026-08-01 10:18:05,389 [SYNC] DONE copied=0 converted=0 unchanged=0 deleted=0 failed=1 play=3 elapsed=0.0s
+2026-08-01 10:20:17,962 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpbejojg2i\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpbejojg2i\PLAY files=2
+2026-08-01 10:20:17,988 [IMAGE] poster.png mode=original portrait=True 50x90->50x90
+2026-08-01 10:20:17,995 [SYNC] DONE copied=2 converted=0 unchanged=0 deleted=0 failed=0 play=2 elapsed=0.0s
+2026-08-01 10:20:18,015 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpbejojg2i\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpbejojg2i\PLAY files=2
+2026-08-01 10:20:18,016 [SYNC] DOCUMENT CROP START poster.png target=90x50
+2026-08-01 10:20:18,021 [IMAGE] poster.png mode=crop_fill portrait=True 50x90->90x50
+2026-08-01 10:20:18,022 [SYNC] DOCUMENT CROP SUCCESS poster.png
+2026-08-01 10:20:18,030 [SYNC] DONE copied=1 converted=0 unchanged=1 deleted=0 failed=0 play=2 elapsed=0.0s
+2026-08-01 10:20:18,051 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpqxon8tin\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpqxon8tin\PLAY files=1
+2026-08-01 10:20:18,069 [SYNC] DONE copied=1 converted=0 unchanged=0 deleted=0 failed=0 play=1 elapsed=0.0s
+2026-08-01 10:20:18,090 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpqxon8tin\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpqxon8tin\PLAY files=1
+2026-08-01 10:20:18,098 [SYNC] DONE copied=0 converted=0 unchanged=1 deleted=0 failed=0 play=1 elapsed=0.0s
+2026-08-01 10:20:18,115 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpqxon8tin\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpqxon8tin\PLAY files=1
+2026-08-01 10:20:18,124 [SYNC] DONE copied=1 converted=0 unchanged=0 deleted=0 failed=0 play=1 elapsed=0.0s
+2026-08-01 10:20:18,148 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpqxon8tin\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpqxon8tin\PLAY files=0
+2026-08-01 10:20:18,160 [SYNC] DONE copied=0 converted=0 unchanged=0 deleted=1 failed=0 play=0 elapsed=0.0s
+2026-08-01 10:20:18,168 [SYNC] LIBREOFFICE SEARCH START
+2026-08-01 10:20:18,169 [SYNC] LIBREOFFICE CANDIDATE C:\Users\BUIDUY~1\AppData\Local\Temp\tmphfoly0zh\soffice.exe
+2026-08-01 10:20:18,170 [SYNC] LIBREOFFICE SELECTED C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmphfoly0zh\soffice.exe
+2026-08-01 10:20:18,173 [SYNC] LIBREOFFICE SEARCH START
+2026-08-01 10:20:18,174 [SYNC] LIBREOFFICE CANDIDATE C:\Users\BUIDUY~1\AppData\Local\Temp\tmphfoly0zh\wpsoffice.exe
+2026-08-01 10:20:18,174 [SYNC] LIBREOFFICE CANDIDATE C:\Program Files\LibreOffice\program\soffice.exe
+2026-08-01 10:20:18,175 [SYNC] LIBREOFFICE SELECTED C:\Program Files\LibreOffice\program\soffice.exe
+2026-08-01 10:20:18,196 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmp_qbpxjw7\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmp_qbpxjw7\PLAY files=1
+2026-08-01 10:20:18,209 [SYNC] DONE copied=1 converted=0 unchanged=0 deleted=0 failed=0 play=1 elapsed=0.0s
+2026-08-01 10:20:18,266 [IMAGE] portrait.png mode=original portrait=True 60x100->60x100
+2026-08-01 10:20:18,266 [SYNC] DOCUMENT CROP START portrait.png target=160x90
+2026-08-01 10:20:18,272 [IMAGE] portrait.png mode=crop_fill portrait=True 60x100->160x90
+2026-08-01 10:20:18,273 [SYNC] DOCUMENT CROP SUCCESS portrait.png
+2026-08-01 10:20:18,311 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpuqazdmv2\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpuqazdmv2\PLAY files=1
+2026-08-01 10:20:18,313 [SYNC] PDF RENDER START C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpuqazdmv2\SOURCE\Thông báo.pdf
+2026-08-01 10:20:18,427 [SYNC] PDF RENDER SUCCESS Thông báo.pdf pages=3
+2026-08-01 10:20:18,452 [IMAGE] Thông báo__page_0001.png mode=original portrait=True 595x842->595x842
+2026-08-01 10:20:18,501 [IMAGE] Thông báo__page_0002.png mode=original portrait=True 595x842->595x842
+2026-08-01 10:20:18,548 [IMAGE] Thông báo__page_0003.png mode=original portrait=True 595x842->595x842
+2026-08-01 10:20:18,555 [SYNC] DOCUMENT OUTPUT REPLACED C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpuqazdmv2\PLAY\Thông báo__pages
+2026-08-01 10:20:18,570 [SYNC] DONE copied=0 converted=1 unchanged=0 deleted=0 failed=0 play=3 elapsed=0.3s
+2026-08-01 10:20:18,609 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpuqazdmv2\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpuqazdmv2\PLAY files=1
+2026-08-01 10:20:18,610 [SYNC] PDF RENDER START C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpuqazdmv2\SOURCE\Thông báo.pdf
+2026-08-01 10:20:18,615 [SYNC] ERROR Thông báo.pdf: Failed to open file 'C:\\Users\\BUIDUYTHONG-LAP\\AppData\\Local\\Temp\\tmpuqazdmv2\\SOURCE\\Thông báo.pdf' as type pdf.
+2026-08-01 10:20:18,626 [SYNC] DONE copied=0 converted=0 unchanged=0 deleted=0 failed=1 play=3 elapsed=0.1s
+2026-08-01 10:24:58,569 [SYNC] LIBREOFFICE SEARCH START
+2026-08-01 10:24:58,570 [SYNC] LIBREOFFICE CANDIDATE C:\Program Files\LibreOffice\program\soffice.exe
+2026-08-01 10:24:58,570 [SYNC] LIBREOFFICE SELECTED C:\Program Files\LibreOffice\program\soffice.exe
+2026-08-01 10:25:13,637 [SYNC] LIBREOFFICE CONVERT FAILED validate: Command '['C:\\Program Files\\LibreOffice\\program\\soffice.exe', '-env:UserInstallation=file:///C:/Users/BUIDUYTHONG-LAP/AppData/Local/Temp/atg-lo-check-shun80dr', '--headless', '--version']' timed out after 15 seconds
+2026-08-01 10:25:13,743 [SYNC] LIBREOFFICE CONVERT START D:\PYTHON\ATG Multi Mornitor Control\phase 1.2.2 chuyen s? d?ng libre office.docx
+2026-08-01 10:25:13,743 [SYNC] LIBREOFFICE COMMAND "C:\Program Files\LibreOffice\program\soffice.exe" -env:UserInstallation=file:///C:/Users/BUIDUYTHONG-LAP/AppData/Local/Temp/tmpbymyc_kb/lo_profile_6b5e8f303ae5494cb0c566d3e97eb443 --headless --nologo --nodefault --nofirststartwizard --nolockcheck --convert-to pdf --outdir C:\Users\BUIDUY~1\AppData\Local\Temp\tmpbymyc_kb "D:\PYTHON\ATG Multi Mornitor Control\phase 1.2.2 chuyen s? d?ng libre office.docx"
+2026-08-01 10:25:32,162 [SYNC] LIBREOFFICE PDF OUTPUT C:\Users\BUIDUY~1\AppData\Local\Temp\tmpbymyc_kb\phase 1.2.2 chuyen sử dụng libre office.pdf
+2026-08-01 10:25:32,162 [SYNC] LIBREOFFICE CONVERT SUCCESS phase 1.2.2 chuyen s? d?ng libre office.docx
+2026-08-01 10:25:46,516 [SYNC] LIBREOFFICE SEARCH START
+2026-08-01 10:25:46,517 [SYNC] LIBREOFFICE CANDIDATE C:\Program Files\LibreOffice\program\soffice.exe
+2026-08-01 10:25:46,518 [SYNC] LIBREOFFICE SELECTED C:\Program Files\LibreOffice\program\soffice.exe
+2026-08-01 10:26:01,635 [SYNC] LIBREOFFICE VERSION LibreOffice 26.2.5.2 (file version); --version timeout
+2026-08-01 10:26:07,265 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpfhg79bs3\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpfhg79bs3\PLAY files=2
+2026-08-01 10:26:07,306 [IMAGE] poster.png mode=original portrait=True 50x90->50x90
+2026-08-01 10:26:07,319 [SYNC] DONE copied=2 converted=0 unchanged=0 deleted=0 failed=0 play=2 elapsed=0.1s
+2026-08-01 10:26:07,352 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpfhg79bs3\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpfhg79bs3\PLAY files=2
+2026-08-01 10:26:07,354 [SYNC] DOCUMENT CROP START poster.png target=90x50
+2026-08-01 10:26:07,386 [IMAGE] poster.png mode=crop_fill portrait=True 50x90->90x50
+2026-08-01 10:26:07,386 [SYNC] DOCUMENT CROP SUCCESS poster.png
+2026-08-01 10:26:07,397 [SYNC] DONE copied=1 converted=0 unchanged=1 deleted=0 failed=0 play=2 elapsed=0.0s
+2026-08-01 10:26:07,441 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpd9o8i3gg\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpd9o8i3gg\PLAY files=1
+2026-08-01 10:26:07,453 [SYNC] DONE copied=1 converted=0 unchanged=0 deleted=0 failed=0 play=1 elapsed=0.0s
+2026-08-01 10:26:07,482 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpd9o8i3gg\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpd9o8i3gg\PLAY files=1
+2026-08-01 10:26:07,492 [SYNC] DONE copied=0 converted=0 unchanged=1 deleted=0 failed=0 play=1 elapsed=0.0s
+2026-08-01 10:26:07,510 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpd9o8i3gg\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpd9o8i3gg\PLAY files=1
+2026-08-01 10:26:07,520 [SYNC] DONE copied=1 converted=0 unchanged=0 deleted=0 failed=0 play=1 elapsed=0.0s
+2026-08-01 10:26:07,545 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpd9o8i3gg\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpd9o8i3gg\PLAY files=0
+2026-08-01 10:26:07,554 [SYNC] DONE copied=0 converted=0 unchanged=0 deleted=1 failed=0 play=0 elapsed=0.0s
+2026-08-01 10:26:07,564 [SYNC] LIBREOFFICE SEARCH START
+2026-08-01 10:26:07,565 [SYNC] LIBREOFFICE CANDIDATE C:\Users\BUIDUY~1\AppData\Local\Temp\tmp61wz5jhe\soffice.exe
+2026-08-01 10:26:07,565 [SYNC] LIBREOFFICE SELECTED C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmp61wz5jhe\soffice.exe
+2026-08-01 10:26:07,569 [SYNC] LIBREOFFICE SEARCH START
+2026-08-01 10:26:07,569 [SYNC] LIBREOFFICE CANDIDATE C:\Users\BUIDUY~1\AppData\Local\Temp\tmp61wz5jhe\wpsoffice.exe
+2026-08-01 10:26:07,569 [SYNC] LIBREOFFICE CANDIDATE C:\Program Files\LibreOffice\program\soffice.exe
+2026-08-01 10:26:07,570 [SYNC] LIBREOFFICE SELECTED C:\Program Files\LibreOffice\program\soffice.exe
+2026-08-01 10:26:07,593 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmp20bpmjg1\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmp20bpmjg1\PLAY files=1
+2026-08-01 10:26:07,604 [SYNC] DONE copied=1 converted=0 unchanged=0 deleted=0 failed=0 play=1 elapsed=0.0s
+2026-08-01 10:26:07,664 [IMAGE] portrait.png mode=original portrait=True 60x100->60x100
+2026-08-01 10:26:07,665 [SYNC] DOCUMENT CROP START portrait.png target=160x90
+2026-08-01 10:26:07,672 [IMAGE] portrait.png mode=crop_fill portrait=True 60x100->160x90
+2026-08-01 10:26:07,672 [SYNC] DOCUMENT CROP SUCCESS portrait.png
+2026-08-01 10:26:07,708 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpner0ne1a\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpner0ne1a\PLAY files=1
+2026-08-01 10:26:07,710 [SYNC] PDF RENDER START C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpner0ne1a\SOURCE\Thông báo.pdf
+2026-08-01 10:26:07,818 [SYNC] PDF RENDER SUCCESS Thông báo.pdf pages=3
+2026-08-01 10:26:07,862 [IMAGE] Thông báo__page_0001.png mode=original portrait=True 595x842->595x842
+2026-08-01 10:26:07,903 [IMAGE] Thông báo__page_0002.png mode=original portrait=True 595x842->595x842
+2026-08-01 10:26:07,933 [IMAGE] Thông báo__page_0003.png mode=original portrait=True 595x842->595x842
+2026-08-01 10:26:07,938 [SYNC] DOCUMENT OUTPUT REPLACED C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpner0ne1a\PLAY\Thông báo__pages
+2026-08-01 10:26:07,957 [SYNC] DONE copied=0 converted=1 unchanged=0 deleted=0 failed=0 play=3 elapsed=0.3s
+2026-08-01 10:26:07,989 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpner0ne1a\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpner0ne1a\PLAY files=1
+2026-08-01 10:26:07,993 [SYNC] PDF RENDER START C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpner0ne1a\SOURCE\Thông báo.pdf
+2026-08-01 10:26:07,999 [SYNC] ERROR Thông báo.pdf: Failed to open file 'C:\\Users\\BUIDUYTHONG-LAP\\AppData\\Local\\Temp\\tmpner0ne1a\\SOURCE\\Thông báo.pdf' as type pdf.
+2026-08-01 10:26:08,012 [SYNC] DONE copied=0 converted=0 unchanged=0 deleted=0 failed=1 play=3 elapsed=0.1s
+2026-08-01 10:41:38,487 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmp8jr1i1sa\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmp8jr1i1sa\PLAY files=2
+2026-08-01 10:41:38,516 [IMAGE] poster.png mode=original portrait=True 50x90->50x90
+2026-08-01 10:41:38,523 [SYNC] DONE copied=2 converted=0 unchanged=0 deleted=0 failed=0 play=2 elapsed=0.0s
+2026-08-01 10:41:38,547 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmp8jr1i1sa\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmp8jr1i1sa\PLAY files=2
+2026-08-01 10:41:38,551 [SYNC] DOCUMENT CROP START poster.png target=90x50
+2026-08-01 10:41:38,587 [IMAGE] poster.png mode=crop_fill portrait=True 50x90->90x50
+2026-08-01 10:41:38,588 [SYNC] DOCUMENT CROP SUCCESS poster.png
+2026-08-01 10:41:38,597 [SYNC] DONE copied=1 converted=0 unchanged=1 deleted=0 failed=0 play=2 elapsed=0.1s
+2026-08-01 10:41:38,637 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpxhd0teta\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpxhd0teta\PLAY files=1
+2026-08-01 10:41:38,669 [SYNC] DONE copied=1 converted=0 unchanged=0 deleted=0 failed=0 play=1 elapsed=0.0s
+2026-08-01 10:41:38,700 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpxhd0teta\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpxhd0teta\PLAY files=1
+2026-08-01 10:41:38,708 [SYNC] DONE copied=0 converted=0 unchanged=1 deleted=0 failed=0 play=1 elapsed=0.0s
+2026-08-01 10:41:38,725 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpxhd0teta\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpxhd0teta\PLAY files=1
+2026-08-01 10:41:38,743 [SYNC] DONE copied=1 converted=0 unchanged=0 deleted=0 failed=0 play=1 elapsed=0.0s
+2026-08-01 10:41:38,786 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpxhd0teta\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpxhd0teta\PLAY files=0
+2026-08-01 10:41:38,797 [SYNC] DONE copied=0 converted=0 unchanged=0 deleted=1 failed=0 play=0 elapsed=0.0s
+2026-08-01 10:41:38,841 [SYNC] DOCUMENT CROP START wide.png target=100x100
+2026-08-01 10:41:38,866 [IMAGE] wide.png mode=crop_fill portrait=False 300x100->100x100
+2026-08-01 10:41:38,867 [SYNC] DOCUMENT CROP SUCCESS wide.png
+2026-08-01 10:41:38,878 [SYNC] LIBREOFFICE SEARCH START
+2026-08-01 10:41:38,879 [SYNC] LIBREOFFICE CANDIDATE C:\Users\BUIDUY~1\AppData\Local\Temp\tmpaa1pnckp\soffice.exe
+2026-08-01 10:41:38,880 [SYNC] LIBREOFFICE SELECTED C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpaa1pnckp\soffice.exe
+2026-08-01 10:41:38,882 [SYNC] LIBREOFFICE SEARCH START
+2026-08-01 10:41:38,882 [SYNC] LIBREOFFICE CANDIDATE C:\Users\BUIDUY~1\AppData\Local\Temp\tmpaa1pnckp\wpsoffice.exe
+2026-08-01 10:41:38,883 [SYNC] LIBREOFFICE CANDIDATE C:\Program Files\LibreOffice\program\soffice.exe
+2026-08-01 10:41:38,883 [SYNC] LIBREOFFICE SELECTED C:\Program Files\LibreOffice\program\soffice.exe
+2026-08-01 10:41:38,904 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpt8he8aiz\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpt8he8aiz\PLAY files=1
+2026-08-01 10:41:38,914 [SYNC] DONE copied=1 converted=0 unchanged=0 deleted=0 failed=0 play=1 elapsed=0.0s
+2026-08-01 10:41:38,980 [IMAGE] portrait.png mode=original portrait=True 60x100->60x100
+2026-08-01 10:41:38,981 [SYNC] DOCUMENT CROP START portrait.png target=160x90
+2026-08-01 10:41:38,989 [IMAGE] portrait.png mode=crop_fill portrait=True 60x100->160x90
+2026-08-01 10:41:38,990 [SYNC] DOCUMENT CROP SUCCESS portrait.png
+2026-08-01 10:41:39,034 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpqqm6ima7\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpqqm6ima7\PLAY files=1
+2026-08-01 10:41:39,035 [SYNC] PDF RENDER START C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpqqm6ima7\SOURCE\Thông báo.pdf
+2026-08-01 10:41:39,151 [SYNC] PDF RENDER SUCCESS Thông báo.pdf pages=3
+2026-08-01 10:41:39,211 [IMAGE] Thông báo__page_0001.png mode=original portrait=True 595x842->595x842
+2026-08-01 10:41:39,237 [IMAGE] Thông báo__page_0002.png mode=original portrait=True 595x842->595x842
+2026-08-01 10:41:39,266 [IMAGE] Thông báo__page_0003.png mode=original portrait=True 595x842->595x842
+2026-08-01 10:41:39,278 [SYNC] DOCUMENT OUTPUT REPLACED C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpqqm6ima7\PLAY\Thông báo__pages
+2026-08-01 10:41:39,301 [SYNC] DONE copied=0 converted=1 unchanged=0 deleted=0 failed=0 play=3 elapsed=0.3s
+2026-08-01 10:41:39,334 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpqqm6ima7\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpqqm6ima7\PLAY files=1
+2026-08-01 10:41:39,336 [SYNC] PDF RENDER START C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpqqm6ima7\SOURCE\Thông báo.pdf
+2026-08-01 10:41:39,346 [SYNC] ERROR Thông báo.pdf: Failed to open file 'C:\\Users\\BUIDUYTHONG-LAP\\AppData\\Local\\Temp\\tmpqqm6ima7\\SOURCE\\Thông báo.pdf' as type pdf.
+2026-08-01 10:41:39,361 [SYNC] DONE copied=0 converted=0 unchanged=0 deleted=0 failed=1 play=3 elapsed=0.1s
+2026-08-01 10:41:56,342 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpn6bif9gv\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpn6bif9gv\PLAY files=2
+2026-08-01 10:41:56,363 [IMAGE] poster.png mode=original portrait=True 50x90->50x90
+2026-08-01 10:41:56,370 [SYNC] DONE copied=2 converted=0 unchanged=0 deleted=0 failed=0 play=2 elapsed=0.0s
+2026-08-01 10:41:56,387 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpn6bif9gv\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpn6bif9gv\PLAY files=2
+2026-08-01 10:41:56,388 [SYNC] DOCUMENT CROP START poster.png target=90x50
+2026-08-01 10:41:56,393 [IMAGE] poster.png mode=crop_fill portrait=True 50x90->90x50
+2026-08-01 10:41:56,393 [SYNC] DOCUMENT CROP SUCCESS poster.png
+2026-08-01 10:41:56,399 [SYNC] DONE copied=1 converted=0 unchanged=1 deleted=0 failed=0 play=2 elapsed=0.0s
+2026-08-01 10:41:56,414 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmplno983ja\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmplno983ja\PLAY files=1
+2026-08-01 10:41:56,424 [SYNC] DONE copied=1 converted=0 unchanged=0 deleted=0 failed=0 play=1 elapsed=0.0s
+2026-08-01 10:41:56,444 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmplno983ja\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmplno983ja\PLAY files=1
+2026-08-01 10:41:56,451 [SYNC] DONE copied=0 converted=0 unchanged=1 deleted=0 failed=0 play=1 elapsed=0.0s
+2026-08-01 10:41:56,466 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmplno983ja\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmplno983ja\PLAY files=1
+2026-08-01 10:41:56,475 [SYNC] DONE copied=1 converted=0 unchanged=0 deleted=0 failed=0 play=1 elapsed=0.0s
+2026-08-01 10:41:56,494 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmplno983ja\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmplno983ja\PLAY files=0
+2026-08-01 10:41:56,501 [SYNC] DONE copied=0 converted=0 unchanged=0 deleted=1 failed=0 play=0 elapsed=0.0s
+2026-08-01 10:41:56,510 [SYNC] DOCUMENT CROP START wide.png target=100x100
+2026-08-01 10:41:56,516 [IMAGE] wide.png mode=crop_fill portrait=False 300x100->100x100
+2026-08-01 10:41:56,517 [SYNC] DOCUMENT CROP SUCCESS wide.png
+2026-08-01 10:41:56,526 [SYNC] LIBREOFFICE SEARCH START
+2026-08-01 10:41:56,526 [SYNC] LIBREOFFICE CANDIDATE C:\Users\BUIDUY~1\AppData\Local\Temp\tmphw50vq4o\soffice.exe
+2026-08-01 10:41:56,527 [SYNC] LIBREOFFICE SELECTED C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmphw50vq4o\soffice.exe
+2026-08-01 10:41:56,529 [SYNC] LIBREOFFICE SEARCH START
+2026-08-01 10:41:56,529 [SYNC] LIBREOFFICE CANDIDATE C:\Users\BUIDUY~1\AppData\Local\Temp\tmphw50vq4o\wpsoffice.exe
+2026-08-01 10:41:56,530 [SYNC] LIBREOFFICE CANDIDATE C:\Program Files\LibreOffice\program\soffice.exe
+2026-08-01 10:41:56,530 [SYNC] LIBREOFFICE SELECTED C:\Program Files\LibreOffice\program\soffice.exe
+2026-08-01 10:41:56,545 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpsdyzwotu\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpsdyzwotu\PLAY files=1
+2026-08-01 10:41:56,554 [SYNC] DONE copied=1 converted=0 unchanged=0 deleted=0 failed=0 play=1 elapsed=0.0s
+2026-08-01 10:41:56,592 [IMAGE] portrait.png mode=original portrait=True 60x100->60x100
+2026-08-01 10:41:56,593 [SYNC] DOCUMENT CROP START portrait.png target=160x90
+2026-08-01 10:41:56,598 [IMAGE] portrait.png mode=crop_fill portrait=True 60x100->160x90
+2026-08-01 10:41:56,599 [SYNC] DOCUMENT CROP SUCCESS portrait.png
+2026-08-01 10:41:56,634 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpjmellflc\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpjmellflc\PLAY files=1
+2026-08-01 10:41:56,635 [SYNC] PDF RENDER START C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpjmellflc\SOURCE\Thông báo.pdf
+2026-08-01 10:41:56,734 [SYNC] PDF RENDER SUCCESS Thông báo.pdf pages=3
+2026-08-01 10:41:56,756 [IMAGE] Thông báo__page_0001.png mode=original portrait=True 595x842->595x842
+2026-08-01 10:41:56,780 [IMAGE] Thông báo__page_0002.png mode=original portrait=True 595x842->595x842
+2026-08-01 10:41:56,800 [IMAGE] Thông báo__page_0003.png mode=original portrait=True 595x842->595x842
+2026-08-01 10:41:56,805 [SYNC] DOCUMENT OUTPUT REPLACED C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpjmellflc\PLAY\Thông báo__pages
+2026-08-01 10:41:56,815 [SYNC] DONE copied=0 converted=1 unchanged=0 deleted=0 failed=0 play=3 elapsed=0.2s
+2026-08-01 10:41:56,836 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpjmellflc\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpjmellflc\PLAY files=1
+2026-08-01 10:41:56,837 [SYNC] PDF RENDER START C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpjmellflc\SOURCE\Thông báo.pdf
+2026-08-01 10:41:56,842 [SYNC] ERROR Thông báo.pdf: Failed to open file 'C:\\Users\\BUIDUYTHONG-LAP\\AppData\\Local\\Temp\\tmpjmellflc\\SOURCE\\Thông báo.pdf' as type pdf.
+2026-08-01 10:41:56,851 [SYNC] DONE copied=0 converted=0 unchanged=0 deleted=0 failed=1 play=3 elapsed=0.0s
+2026-08-01 10:57:46,417 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmph5y74qf3\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmph5y74qf3\PLAY files=2
+2026-08-01 10:57:46,448 [SYNC] DONE copied=2 converted=0 unchanged=0 deleted=0 failed=0 play=2 elapsed=0.0s
+2026-08-01 10:57:46,468 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmph5y74qf3\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmph5y74qf3\PLAY files=2
+2026-08-01 10:57:46,477 [SYNC] IMAGE DISPLAY MODE: fit_background | FOREGROUND CONTAIN START poster.png
+2026-08-01 10:57:46,478 [SYNC] BACKGROUND BLUR CREATED poster.png
+2026-08-01 10:57:46,501 [SYNC] FOREGROUND CONTAIN SUCCESS | source=poster.png | source_size=50x90 | target=90x50 | foreground=28x50 | position=31,0 | cropped=false | content_preserved=true
+2026-08-01 10:57:46,509 [SYNC] DONE copied=1 converted=0 unchanged=1 deleted=0 failed=0 play=2 elapsed=0.0s
+2026-08-01 10:57:46,550 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpqhil1vxw\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpqhil1vxw\PLAY files=1
+2026-08-01 10:57:46,563 [SYNC] DONE copied=1 converted=0 unchanged=0 deleted=0 failed=0 play=1 elapsed=0.0s
+2026-08-01 10:57:46,586 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpqhil1vxw\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpqhil1vxw\PLAY files=1
+2026-08-01 10:57:46,594 [SYNC] DONE copied=0 converted=0 unchanged=1 deleted=0 failed=0 play=1 elapsed=0.0s
+2026-08-01 10:57:46,612 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpqhil1vxw\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpqhil1vxw\PLAY files=1
+2026-08-01 10:57:46,621 [SYNC] DONE copied=1 converted=0 unchanged=0 deleted=0 failed=0 play=1 elapsed=0.0s
+2026-08-01 10:57:46,644 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpqhil1vxw\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpqhil1vxw\PLAY files=0
+2026-08-01 10:57:46,652 [SYNC] DONE copied=0 converted=0 unchanged=0 deleted=1 failed=0 play=0 elapsed=0.0s
+2026-08-01 10:57:46,752 [SYNC] IMAGE DISPLAY MODE: fit_background | FOREGROUND CONTAIN START page.png
+2026-08-01 10:57:46,757 [SYNC] DOCUMENT SOLID BACKGROUND CREATED page.png color=#FFFFFF
+2026-08-01 10:57:46,932 [SYNC] FOREGROUND CONTAIN SUCCESS | source=page.png | source_size=1200x1800 | target=1920x1080 | foreground=720x1080 | position=600,0 | cropped=false | content_preserved=true
+2026-08-01 10:57:46,946 [SYNC] LIBREOFFICE SEARCH START
+2026-08-01 10:57:46,947 [SYNC] LIBREOFFICE CANDIDATE C:\Users\BUIDUY~1\AppData\Local\Temp\tmpaz5v1u7l\soffice.exe
+2026-08-01 10:57:46,948 [SYNC] LIBREOFFICE SELECTED C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpaz5v1u7l\soffice.exe
+2026-08-01 10:57:46,951 [SYNC] LIBREOFFICE SEARCH START
+2026-08-01 10:57:46,951 [SYNC] LIBREOFFICE CANDIDATE C:\Users\BUIDUY~1\AppData\Local\Temp\tmpaz5v1u7l\wpsoffice.exe
+2026-08-01 10:57:46,951 [SYNC] LIBREOFFICE CANDIDATE C:\Program Files\LibreOffice\program\soffice.exe
+2026-08-01 10:57:46,952 [SYNC] LIBREOFFICE SELECTED C:\Program Files\LibreOffice\program\soffice.exe
+2026-08-01 10:57:47,020 [SYNC] IMAGE DISPLAY MODE: fit_background | FOREGROUND CONTAIN START notice.png
+2026-08-01 10:57:47,315 [SYNC] BACKGROUND BLUR CREATED notice.png
+2026-08-01 10:57:47,452 [SYNC] FOREGROUND CONTAIN SUCCESS | source=notice.png | source_size=720x537 | target=1920x1080 | foreground=1448x1080 | position=236,0 | cropped=false | content_preserved=true
+2026-08-01 10:57:47,474 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpxe_1oag7\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmpxe_1oag7\PLAY files=1
+2026-08-01 10:57:47,484 [SYNC] DONE copied=1 converted=0 unchanged=0 deleted=0 failed=0 play=1 elapsed=0.0s
+2026-08-01 10:57:47,540 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmp7vukhsnm\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmp7vukhsnm\PLAY files=1
+2026-08-01 10:57:47,542 [SYNC] PDF RENDER START C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmp7vukhsnm\SOURCE\Thông báo.pdf
+2026-08-01 10:57:47,643 [SYNC] PDF RENDER SUCCESS Thông báo.pdf pages=3
+2026-08-01 10:57:47,718 [SYNC] DOCUMENT OUTPUT REPLACED C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmp7vukhsnm\PLAY\Thông báo__pages
+2026-08-01 10:57:47,727 [SYNC] DONE copied=0 converted=1 unchanged=0 deleted=0 failed=0 play=3 elapsed=0.2s
+2026-08-01 10:57:47,747 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmp7vukhsnm\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmp7vukhsnm\PLAY files=1
+2026-08-01 10:57:47,749 [SYNC] PDF RENDER START C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\tmp7vukhsnm\SOURCE\Thông báo.pdf
+2026-08-01 10:57:47,753 [SYNC] ERROR Thông báo.pdf: Failed to open file 'C:\\Users\\BUIDUYTHONG-LAP\\AppData\\Local\\Temp\\tmp7vukhsnm\\SOURCE\\Thông báo.pdf' as type pdf.
+2026-08-01 10:57:47,763 [SYNC] DONE copied=0 converted=0 unchanged=0 deleted=0 failed=1 play=3 elapsed=0.0s
+2026-08-01 10:58:10,988 [SYNC] LIBREOFFICE SEARCH START
+2026-08-01 10:58:10,988 [SYNC] LIBREOFFICE CANDIDATE C:\Program Files\LibreOffice\program\soffice.exe
+2026-08-01 10:58:10,988 [SYNC] LIBREOFFICE SELECTED C:\Program Files\LibreOffice\program\soffice.exe
+2026-08-01 10:58:26,048 [SYNC] LIBREOFFICE VERSION LibreOffice 26.2.5.2 (file version); --version timeout
+2026-08-01 10:58:26,048 [SYNC] START SOURCE=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\atg_v124_integration\SOURCE PLAY=C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\atg_v124_integration\PLAY files=1
+2026-08-01 10:58:26,049 [SYNC] LIBREOFFICE SEARCH START
+2026-08-01 10:58:26,049 [SYNC] LIBREOFFICE CANDIDATE C:\Program Files\LibreOffice\program\soffice.exe
+2026-08-01 10:58:26,049 [SYNC] LIBREOFFICE SELECTED C:\Program Files\LibreOffice\program\soffice.exe
+2026-08-01 10:58:26,178 [SYNC] LIBREOFFICE CONVERT START C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\atg_v124_integration\SOURCE\kiem tra.docx
+2026-08-01 10:58:26,179 [SYNC] LIBREOFFICE COMMAND "C:\Program Files\LibreOffice\program\soffice.exe" -env:UserInstallation=file:///C:/Users/BUIDUYTHONG-LAP/AppData/Local/Temp/atg_v124_integration/PLAY/.atg-stage-56495yta/lo_profile_f2d2e5f2800e4a999821e73c508ecb31 --headless --nologo --nodefault --nofirststartwizard --nolockcheck --convert-to pdf --outdir C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\atg_v124_integration\PLAY\.atg-stage-56495yta "C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\atg_v124_integration\SOURCE\kiem tra.docx"
+2026-08-01 10:58:43,721 [SYNC] LIBREOFFICE PDF OUTPUT C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\atg_v124_integration\PLAY\.atg-stage-56495yta\kiem tra.pdf
+2026-08-01 10:58:43,722 [SYNC] LIBREOFFICE CONVERT SUCCESS kiem tra.docx
+2026-08-01 10:58:43,722 [SYNC] PDF RENDER START C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\atg_v124_integration\PLAY\.atg-stage-56495yta\kiem tra.pdf
+2026-08-01 10:58:43,736 [SYNC] PDF RENDER SUCCESS kiem tra.pdf pages=1
+2026-08-01 10:58:43,765 [SYNC] IMAGE DISPLAY MODE: fit_background | FOREGROUND CONTAIN START kiem tra__page_0001.png
+2026-08-01 10:58:43,766 [SYNC] DOCUMENT SOLID BACKGROUND CREATED kiem tra__page_0001.png color=#FFFFFF
+2026-08-01 10:58:43,793 [SYNC] FOREGROUND CONTAIN SUCCESS | source=kiem tra__page_0001.png | source_size=612x792 | target=320x240 | foreground=185x240 | position=67,0 | cropped=false | content_preserved=true
+2026-08-01 10:58:43,795 [SYNC] DOCUMENT OUTPUT REPLACED C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\atg_v124_integration\PLAY\kiem tra__pages
+2026-08-01 10:58:43,841 [SYNC] DONE copied=0 converted=1 unchanged=0 deleted=0 failed=0 play=1 elapsed=32.9s

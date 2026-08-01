@@ -28,6 +28,7 @@ from common import (
     resource_log, PLAYLIST_PATH
 )
 import license_manager
+from sync_engine import sync_source_to_play, validate_folder_layout
 
 try:
     from watchdog.observers import Observer
@@ -47,6 +48,8 @@ CONTACT_WEBSITES = "https://annguyen.pro/  |  https://camerathainguyen.com/  |  
 
 vlc_process = None
 cfg = load_config()
+sync_lock = threading.Lock()
+sync_pending = threading.Event()
 
 
 def show_message_box(title: str, message: str):
@@ -168,7 +171,7 @@ def monitor_license():
 
 def refresh_vlc_playlist():
     """Xoá playlist hiện tại trong VLC và nạp lại danh sách media mới nhất từ thư mục."""
-    files = build_playlist_file(cfg["media_folder"])
+    files = build_playlist_file(cfg["play_folder"], recursive=True)
     resource_log(f"[REFRESH] Tim thay {len(files)} file media, dang nap lai vao VLC...")
 
     # Xoá playlist hiện tại
@@ -176,12 +179,33 @@ def refresh_vlc_playlist():
 
     # Thêm từng file vào playlist
     for path in files:
-        encoded = urllib.parse.quote(path)
+        encoded = urllib.parse.quote(__import__("pathlib").Path(path).resolve().as_uri(), safe=":/")
         vlc_http_request(f"status.xml?command=in_enqueue&input={encoded}")
 
     # Bắt đầu phát lại từ đầu
     vlc_http_request("status.xml?command=pl_play")
     resource_log("[REFRESH] Da lam moi playlist xong.")
+
+
+def perform_sync_and_refresh():
+    if not sync_lock.acquire(blocking=False):
+        sync_pending.set()
+        return
+    try:
+        while True:
+            sync_pending.clear()
+            result = sync_source_to_play(cfg["source_folder"], cfg["play_folder"], cfg)
+            resource_log(
+                f"[SYNC] copied={result.copied} converted={result.converted} "
+                f"unchanged={result.unchanged} failed={result.failed}"
+            )
+            refresh_vlc_playlist()
+            if not sync_pending.is_set():
+                break
+    except Exception as exc:
+        resource_log(f"[SYNC] Loi dong bo nen: {exc}")
+    finally:
+        sync_lock.release()
 
 
 def build_vlc_args():
@@ -223,15 +247,21 @@ def build_vlc_args():
 
 def start_vlc():
     global vlc_process
-    build_playlist_file(cfg["media_folder"])
+    build_playlist_file(cfg["play_folder"], recursive=True)
     args = build_vlc_args()
-    resource_log(f"[START] Khoi dong VLC voi lenh: {' '.join(args)}")
+    safe_args = ["--http-password=***" if a.startswith("--http-password=") else a for a in args]
+    resource_log(f"[START] Khoi dong VLC voi lenh: {' '.join(safe_args)}")
     try:
+        vlc_dir = os.path.dirname(cfg["vlc_path"])
+        vlc_env = os.environ.copy()
+        vlc_env["VLC_PLUGIN_PATH"] = os.path.join(vlc_dir, "plugins")
+        vlc_env["PATH"] = vlc_dir + os.pathsep + vlc_env.get("PATH", "")
         vlc_process = subprocess.Popen(
             args,
-            stdout=subprocess.PIPE,
-            stderr=subprocess.PIPE,
-            text=True,
+            cwd=vlc_dir,
+            env=vlc_env,
+            stdout=subprocess.DEVNULL,
+            stderr=subprocess.DEVNULL,
         )
     except FileNotFoundError:
         resource_log(f"[ERROR] Khong tim thay file vlc.exe tai duong dan: {vlc_path_hint()}")
@@ -254,7 +284,9 @@ class FolderChangeHandler(FileSystemEventHandler):
         with self._lock:
             if self._timer:
                 self._timer.cancel()
-            self._timer = threading.Timer(2.0, refresh_vlc_playlist)  # đợi 2s cho ổn định trước khi refresh
+            self._timer = threading.Timer(
+                float(cfg.get("sync_debounce_seconds", 3)), perform_sync_and_refresh
+            )
             self._timer.start()
 
     def on_created(self, event):
@@ -278,7 +310,7 @@ def watch_folder():
 
     handler = FolderChangeHandler()
     observer = Observer()
-    observer.schedule(handler, cfg["media_folder"], recursive=False)
+    observer.schedule(handler, cfg["source_folder"], recursive=cfg.get("recursive_scan", True))
     observer.start()
     resource_log("[WATCH] Dang theo doi thay doi thu muc (watchdog).")
     try:
@@ -291,14 +323,16 @@ def watch_folder():
 
 def watch_folder_polling():
     """Phương án dự phòng nếu chưa cài watchdog: kiểm tra định kỳ danh sách file."""
-    last_snapshot = set(scan_media_files(cfg["media_folder"]))
+    from pathlib import Path
+    source = Path(cfg["source_folder"])
+    last_snapshot = {(str(p), p.stat().st_size, p.stat().st_mtime_ns) for p in source.rglob("*") if p.is_file()}
     interval = cfg.get("watch_interval_seconds", 5)
     while True:
         time.sleep(interval)
-        current = set(scan_media_files(cfg["media_folder"]))
+        current = {(str(p), p.stat().st_size, p.stat().st_mtime_ns) for p in source.rglob("*") if p.is_file()}
         if current != last_snapshot:
             resource_log("[WATCH-POLL] Phat hien thay doi thu muc, lam moi playlist.")
-            refresh_vlc_playlist()
+            perform_sync_and_refresh()
             last_snapshot = current
 
 
@@ -307,18 +341,20 @@ def validate_config():
     problems = []
     if not os.path.exists(cfg.get("vlc_path", "")):
         problems.append(f"Khong tim thay vlc.exe tai: {cfg.get('vlc_path')}")
-    if not os.path.isdir(cfg.get("media_folder", "")):
-        problems.append(f"Thu muc media khong ton tai: {cfg.get('media_folder')}")
-    files = scan_media_files(cfg.get("media_folder", ""))
-    if not files:
-        problems.append("Thu muc media khong co file video/anh hop le nao.")
+    try:
+        source, play = validate_folder_layout(cfg.get("source_folder", ""), cfg.get("play_folder", ""))
+        if not source.is_dir():
+            problems.append(f"Thu muc SOURCE khong ton tai: {source}")
+        play.mkdir(parents=True, exist_ok=True)
+    except Exception as exc:
+        problems.append(str(exc))
 
     if problems:
         for p in problems:
             resource_log(f"[VALIDATE] LOI: {p}")
         raise RuntimeError("Cau hinh chua hop le, xem chi tiet trong log.txt:\n" + "\n".join(problems))
 
-    resource_log(f"[VALIDATE] OK - tim thay {len(files)} file media.")
+    resource_log("[VALIDATE] OK - SOURCE/PLAY an toan.")
 
 
 def main():
@@ -342,6 +378,30 @@ def main():
         resource_log("[LICENSE] Tu choi khoi dong do license het han/bi khoa/sai may.")
         return
 
+    if cfg.get("sync_on_startup", True) and "--skip-sync" not in sys.argv:
+        delay = max(0, int(cfg.get("startup_delay_seconds", 10)))
+        if delay:
+            resource_log(f"[SYNC] Cho {delay}s truoc khi dong bo khoi dong.")
+            time.sleep(delay)
+        deadline = time.time() + 120
+        while not os.path.isdir(cfg["source_folder"]) and time.time() < deadline:
+            resource_log("[SYNC] SOURCE chua san sang, thu lai sau 5s.")
+            time.sleep(5)
+        if os.path.isdir(cfg["source_folder"]):
+            try:
+                sync_source_to_play(cfg["source_folder"], cfg["play_folder"], cfg)
+            except Exception as exc:
+                resource_log(f"[SYNC] Dong bo khoi dong loi, thu phat PLAY cu: {exc}")
+
+    play_files = scan_media_files(cfg["play_folder"], recursive=True)
+    if not play_files:
+        show_message_box(
+            "ATG Signage — Không có nội dung",
+            "Thư mục PLAY chưa có ảnh hoặc video hợp lệ. Vui lòng kiểm tra SOURCE và đồng bộ lại.",
+        )
+        resource_log("[MAIN] PLAY rong, khong khoi dong VLC.")
+        return
+
     proc = start_vlc()
 
     if not is_valid:
@@ -356,12 +416,7 @@ def main():
     time.sleep(1.5)
     if proc.poll() is not None:
         # Tiến trình đã kết thúc ngay lập tức -> chắc chắn có lỗi
-        out, err = proc.communicate()
         resource_log(f"[ERROR] VLC thoat ngay lap tuc (exit code {proc.returncode}).")
-        if out:
-            resource_log(f"[ERROR][stdout] {out}")
-        if err:
-            resource_log(f"[ERROR][stderr] {err}")
         raise RuntimeError(
             "VLC thoat ngay sau khi khoi dong. Kiem tra chi tiet trong file log.txt "
             "(thuong do duong dan vlc.exe sai, playlist rong, hoac tham so dong lenh khong hop le)."

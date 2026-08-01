@@ -42,6 +42,6 @@ if errorlevel 1 (
 
 echo.
 echo [OK] File da tao:
-echo %~dp0dist_release\ATG_Signage.exe
+echo %~dp0dist_release\ATG Multi Mornitor Control V1.2.4.exe
 pause
 endlocal

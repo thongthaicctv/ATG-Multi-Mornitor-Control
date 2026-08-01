@@ -12,7 +12,7 @@ PYINSTALLER_WORK = os.path.join(APP_DIR, "build")
 ENTRY_POINT = os.path.join(APP_DIR, "atg_signage.pyw")
 ICON_PATH = os.path.join(APP_DIR, "assets", "app_icon.ico")
 ASSETS_PATH = os.path.join(APP_DIR, "assets")
-EXE_NAME = "ATG Multi Mornitor Control V1.0"
+EXE_NAME = "ATG Multi Mornitor Control V1.2.4"
 
 
 def run(command):
@@ -45,6 +45,8 @@ def main():
         "--specpath", PYINSTALLER_WORK,
         "--hidden-import", "settings",
         "--hidden-import", "launcher",
+        "--hidden-import", "sync_engine",
+        "--hidden-import", "fitz",
     ]
     if os.path.isfile(ICON_PATH):
         command.extend(["--icon", ICON_PATH])
@@ -52,7 +54,7 @@ def main():
         command.extend(["--add-data", f"{ASSETS_PATH}{os.pathsep}assets"])
     command.append(ENTRY_POINT)
 
-    print("== Build ATG Multi Mornitor Control V1.0: 1 file EXE ==")
+    print("== Build ATG Multi Mornitor Control V1.2.4: 1 file EXE ==")
     run(command)
 
     # Chỉ xóa thư mục đầu ra do script này quản lý.
@@ -67,8 +69,8 @@ def main():
     print("=" * 60)
     print("BUILD THANH CONG")
     print(f"File phat hanh duy nhat: {target_exe}")
-    print("Mo ATG Multi Mornitor Control V1.0.exe de cau hinh.")
-    print("Che do khoi dong/VLC se tu goi: ATG Multi Mornitor Control V1.0.exe --launcher")
+    print(f"Mo {EXE_NAME}.exe de cau hinh.")
+    print(f"Che do khoi dong/VLC se tu goi: {EXE_NAME}.exe --launcher")
     print("=" * 60)
 
 

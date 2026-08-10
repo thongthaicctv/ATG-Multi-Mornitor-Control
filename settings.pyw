@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 settings.pyw
-Giao diện cấu hình cho VLC Signage.
+Giao diện cấu hình cho ATG-Multi-Mornitor-Control.
 Chạy file này bằng: pythonw.exe settings.pyw  (hoặc python settings.pyw để xem log lỗi nếu có)
 """
 import os
@@ -14,7 +14,8 @@ from tkinter import ttk, filedialog, messagebox
 
 from PIL import Image, ImageTk
 
-from common import load_config, save_config, APP_DIR, RESOURCE_DIR
+from common import (APP_NAME, APP_DISPLAY_VERSION, load_config, save_config,
+                    APP_DIR, RESOURCE_DIR)
 from hardware_identity import get_machine_code
 import license_manager
 from sync_engine import (sync_source_to_play, validate_folder_layout,
@@ -26,10 +27,13 @@ ASSETS_DIR = os.path.join(RESOURCE_DIR, "assets")
 ICON_PATH = os.path.join(ASSETS_DIR, "app_icon.ico")
 BANNER_PATH = os.path.join(ASSETS_DIR, "banner_header.png")
 
-TASK_SHUTDOWN = "VLCSignage_Shutdown"
-TASK_RESTART = "VLCSignage_Restart"
-RUN_KEY_NAME = "VLCSignage"
-WINDOWS_APP_ID = "AnNguyen.ATGSignage.Settings.1"
+TASK_SHUTDOWN = f"{APP_NAME}-Shutdown"
+TASK_RESTART = f"{APP_NAME}-Restart"
+LEGACY_TASK_SHUTDOWN = "VLCSignage_Shutdown"
+LEGACY_TASK_RESTART = "VLCSignage_Restart"
+RUN_KEY_NAME = APP_NAME
+LEGACY_RUN_KEY_NAMES = ("VLCSignage",)
+WINDOWS_APP_ID = "AnNguyen.ATGMultiMornitorControl"
 
 COMPANY_NAME = "CÔNG TY TNHH CÔNG NGHỆ VÀ THƯƠNG MẠI AN NGUYÊN"
 COMPANY_WEBSITES = (
@@ -74,6 +78,12 @@ def set_run_on_startup(enable: bool):
         0, winreg.KEY_SET_VALUE
     )
     try:
+        # Luôn xóa tên startup cũ để tránh Windows chạy đồng thời hai entry.
+        for legacy_name in LEGACY_RUN_KEY_NAMES:
+            try:
+                winreg.DeleteValue(key, legacy_name)
+            except FileNotFoundError:
+                pass
         if enable:
             winreg.SetValueEx(key, RUN_KEY_NAME, 0, winreg.REG_SZ, command)
         else:
@@ -87,7 +97,8 @@ def set_run_on_startup(enable: bool):
 
 # ---------------------- Windows: Lịch tắt / khởi động lại máy ----------------------
 
-def set_scheduled_task(task_name: str, enable: bool, time_str: str, action: str):
+def set_scheduled_task(task_name: str, enable: bool, time_str: str, action: str,
+                       legacy_task_names=()):
     """
     action: 'shutdown' hoặc 'restart'
     time_str: 'HH:MM'
@@ -95,11 +106,9 @@ def set_scheduled_task(task_name: str, enable: bool, time_str: str, action: str)
     if not IS_WINDOWS:
         return
 
-    # Xoá task cũ nếu có (để cập nhật giờ mới)
-    subprocess.run(
-        ["schtasks", "/Delete", "/TN", task_name, "/F"],
-        capture_output=True
-    )
+    # Xóa task hiện tại và các tên legacy để không còn lịch chạy trùng.
+    for name in (task_name, *legacy_task_names):
+        subprocess.run(["schtasks", "/Delete", "/TN", name, "/F"], capture_output=True)
 
     if not enable:
         return
@@ -136,7 +145,7 @@ class SettingsApp(tk.Tk):
             except Exception:
                 pass
         super().__init__()
-        self.title("Cấu hình ATG Multi Mornitor Control V1.2.4 — https://annguyen.pro")
+        self.title(f"{APP_NAME} — {APP_DISPLAY_VERSION}")
         self.geometry("900x760")
         self.minsize(780, 600)
         self.resizable(True, True)
@@ -147,6 +156,8 @@ class SettingsApp(tk.Tk):
         self.cfg = load_config()
         self._build_ui()
         self._load_values()
+        # Xác minh tự động sau khi UI đã hiển thị; network I/O vẫn chạy ở worker thread.
+        self.after(100, self._check_license)
 
     def _set_window_icon(self):
         try:
@@ -606,12 +617,14 @@ class SettingsApp(tk.Tk):
             errors.append(f"Lỗi cài đặt khởi động cùng Win: {e}")
 
         try:
-            set_scheduled_task(TASK_SHUTDOWN, self.cfg["shutdown_enabled"], self.cfg["shutdown_time"], "shutdown")
+            set_scheduled_task(TASK_SHUTDOWN, self.cfg["shutdown_enabled"], self.cfg["shutdown_time"],
+                               "shutdown", (LEGACY_TASK_SHUTDOWN,))
         except Exception as e:
             errors.append(f"Lỗi cài đặt lịch tắt máy: {e}")
 
         try:
-            set_scheduled_task(TASK_RESTART, self.cfg["restart_enabled"], self.cfg["restart_time"], "restart")
+            set_scheduled_task(TASK_RESTART, self.cfg["restart_enabled"], self.cfg["restart_time"],
+                               "restart", (LEGACY_TASK_RESTART,))
         except Exception as e:
             errors.append(f"Lỗi cài đặt lịch khởi động lại: {e}")
 
@@ -625,11 +638,11 @@ class SettingsApp(tk.Tk):
     def _check_license(self):
         key = self.var_license_key.get().strip()
         if not key:
-            self.var_license_status.set("⚠ Chưa nhập License Key")
+            self.var_license_status.set("⚠ Chưa có License Key")
             self.lbl_license_status.configure(foreground="#a05a00")
             return
 
-        self.var_license_status.set("Đang kiểm tra...")
+        self.var_license_status.set("Đang xác minh License...")
         self.lbl_license_status.configure(foreground="#666666")
         self.update_idletasks()
 
@@ -637,8 +650,8 @@ class SettingsApp(tk.Tk):
         temp_cfg["license_key"] = key
 
         def worker():
-            is_valid, message = license_manager.validate_license(temp_cfg)
-            self.after(0, lambda: self._on_license_result(is_valid, message))
+            result = license_manager.validate_license_detailed(temp_cfg)
+            self.after(0, lambda: self._on_license_result(result.valid, result.message))
 
         threading.Thread(target=worker, daemon=True).start()
 

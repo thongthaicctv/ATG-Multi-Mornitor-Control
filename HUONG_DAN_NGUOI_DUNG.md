@@ -1,8 +1,8 @@
-# ATG Multi Mornitor Control
+# ATG-Multi-Mornitor-Control
 
 ## Giới thiệu phần mềm
 
-ATG Multi Mornitor Control là phần mềm trình chiếu nội dung quảng cáo và thông tin trên màn hình bằng
+ATG-Multi-Mornitor-Control là phần mềm trình chiếu nội dung quảng cáo và thông tin trên màn hình bằng
 VLC Media Player. Phần mềm tự động phát liên tục các video và hình ảnh trong thư mục do
 người dùng lựa chọn, phù hợp cho màn hình tại sảnh, cửa hàng, showroom, văn phòng, nhà
 máy và các khu vực công cộng.
@@ -36,7 +36,7 @@ BMP, GIF và WebP.
 
 ### 1. Mở phần mềm
 
-Chạy file `ATG Multi Mornitor Control V1.2.4.exe`.
+Chạy file `ATG-Multi-Mornitor-Control.exe`.
 
 Nếu Windows hiển thị cảnh báo bảo mật, chọn **More info** → **Run anyway** khi file
 được nhận từ Công ty An Nguyên hoặc đơn vị triển khai được ủy quyền.
@@ -71,7 +71,7 @@ File PDF và Office được tự chuyển từng trang thành PNG trước khi 
 
 1. Tải LibreOffice từ trang chính thức `https://www.libreoffice.org/download/download-libreoffice/`.
 2. Cài đặt theo lựa chọn mặc định của chương trình cài đặt.
-3. Trong ATG Multi Mornitor Control, nhấn **TỰ ĐỘNG TÌM** tại dòng **Đường dẫn LibreOffice**.
+3. Trong ATG-Multi-Mornitor-Control, nhấn **TỰ ĐỘNG TÌM** tại dòng **Đường dẫn LibreOffice**.
 4. Nếu không tự tìm thấy, nhấn **CHỌN SOFFICE.EXE** và chọn một trong các đường dẫn thường dùng:
 
 ```text

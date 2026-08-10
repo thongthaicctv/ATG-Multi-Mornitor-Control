@@ -1,18 +1,20 @@
 # -*- coding: utf-8 -*-
-"""Build một file ATG Multi Mornitor Control.exe chứa cả Settings, Launcher và assets."""
+"""Build một file ATG-Multi-Mornitor-Control.exe chứa Settings, Launcher và assets."""
 import os
 import shutil
 import subprocess
 import sys
 
+from common import APP_NAME
+
 APP_DIR = os.path.dirname(os.path.abspath(__file__))
 DIST_RELEASE = os.path.join(APP_DIR, "dist_release")
 PYINSTALLER_DIST = os.path.join(APP_DIR, "dist")
 PYINSTALLER_WORK = os.path.join(APP_DIR, "build")
-ENTRY_POINT = os.path.join(APP_DIR, "atg_signage.pyw")
+ENTRY_POINT = os.path.join(APP_DIR, f"{APP_NAME}.pyw")
 ICON_PATH = os.path.join(APP_DIR, "assets", "app_icon.ico")
 ASSETS_PATH = os.path.join(APP_DIR, "assets")
-EXE_NAME = "ATG Multi Mornitor Control V1.2.4"
+EXE_NAME = APP_NAME
 
 
 def run(command):
@@ -54,7 +56,7 @@ def main():
         command.extend(["--add-data", f"{ASSETS_PATH}{os.pathsep}assets"])
     command.append(ENTRY_POINT)
 
-    print("== Build ATG Multi Mornitor Control V1.2.4: 1 file EXE ==")
+    print(f"== Build {APP_NAME}: 1 file EXE ==")
     run(command)
 
     # Chỉ xóa thư mục đầu ra do script này quản lý.

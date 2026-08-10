@@ -12,7 +12,7 @@ import time
 import uuid
 
 from common import (
-    APP_DIR, IMAGE_EXT, VIDEO_EXT, PDF_EXT, OFFICE_EXT, resource_log
+    APP_NAME, APP_DIR, IMAGE_EXT, VIDEO_EXT, PDF_EXT, OFFICE_EXT, resource_log
 )
 
 MANIFEST_NAME = ".atg_sync_manifest.json"
@@ -115,7 +115,7 @@ def _ensure_marker(source: Path, play: Path):
     marker = play / MARKER_NAME
     if not marker.exists():
         _atomic_json(marker, {
-            "app": "ATG Multi Mornitor Control",
+            "app": APP_NAME,
             "version": "1.2",
             "source_folder": str(source),
             "play_folder_id": uuid.uuid4().hex,

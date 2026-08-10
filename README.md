@@ -1,4 +1,4 @@
-# VLC Signage — Phát video tự động, mỗi màn hình 1 nội dung
+# ATG-Multi-Mornitor-Control — Phát nội dung tự động trên nhiều màn hình
 
 Bộ công cụ này cài **riêng trên từng máy tính/máy phát** gắn với 1 màn hình. Mỗi máy chạy độc lập, chỉ đọc nội dung từ thư mục media của chính nó (thư mục này bạn có thể đồng bộ từ máy trung tâm qua mạng LAN, USB, hoặc phần mềm đồng bộ file — xem phần "Gợi ý mở rộng" bên dưới).
 
@@ -14,7 +14,7 @@ Bộ công cụ này cài **riêng trên từng máy tính/máy phát** gắn v�
 ## 2. Cấu trúc file
 
 ```
-vlc_signage/
+ATG-Multi-Mornitor-Control/
 ├── common.py       # Hàm dùng chung, KHÔNG chỉnh sửa
 ├── launcher.pyw     # Chương trình chạy nền, tự khởi động VLC
 ├── settings.pyw     # Giao diện cấu hình — MỞ FILE NÀY ĐẦU TIÊN
@@ -59,7 +59,7 @@ Bộ file đã có sẵn `.vscode/launch.json` và `.vscode/settings.json`, khô
 
 ### 7.1. Chuẩn bị môi trường (làm 1 lần)
 
-1. Mở VSCode → **File > Open Folder...** → chọn đúng thư mục `vlc_signage` (không mở nhầm thư mục cha).
+1. Mở VSCode → **File > Open Folder...** → chọn đúng thư mục `ATG-Multi-Mornitor-Control` (không mở nhầm thư mục cha).
 2. Cài extension **Python** (Microsoft) và **Pylance** nếu chưa có — vào tab Extensions (`Ctrl+Shift+X`), gõ "Python", cài bản của Microsoft.
 3. Mở Terminal tích hợp: menu **Terminal > New Terminal**, hoặc phím tắt `` Ctrl+` `` (dấu backtick, nằm dưới phím Esc).
 4. (Khuyến nghị) Tạo virtual environment riêng cho project để không lẫn với Python hệ thống:
@@ -133,7 +133,7 @@ python launcher.pyw
 | `ModuleNotFoundError: No module named 'watchdog'` | Chưa cài thư viện, hoặc VSCode đang dùng sai interpreter | Chạy `pip install -r requirements.txt` trong đúng Terminal đang active venv; kiểm tra lại `Ctrl+Shift+P > Python: Select Interpreter` |
 | Debug chạy nhưng không dừng ở breakpoint | Đang debug nhầm file (F5 chạy theo file đang mở, không phải file có breakpoint) | Đảm bảo đã chọn đúng cấu hình debug tương ứng ở dropdown trong tab Run and Debug |
 | Terminal báo `python : The term 'python' is not recognized` | Python chưa được thêm vào PATH khi cài đặt | Cài lại Python, tích chọn **"Add Python to PATH"**, hoặc dùng `py` thay cho `python` trong Terminal |
-| `settings.pyw` mở lên nhưng icon/banner không hiện | Đường dẫn tương đối bị lệch do chạy từ sai thư mục làm việc (cwd) | Đảm bảo mở đúng Folder gốc `vlc_signage` trong VSCode — `launch.json` đã set sẵn `"cwd": "${workspaceFolder}"` nên bình thường không gặp lỗi này nếu mở đúng folder |
+| `settings.pyw` mở lên nhưng icon/banner không hiện | Đường dẫn tương đối bị lệch do chạy từ sai thư mục làm việc (cwd) | Đảm bảo mở đúng Folder gốc `ATG-Multi-Mornitor-Control` trong VSCode — `launch.json` đã set sẵn `"cwd": "${workspaceFolder}"` nên bình thường không gặp lỗi này nếu mở đúng folder |
 
 **Xem log chi tiết:** dù chạy debug hay chạy thường, chương trình luôn ghi log vào file `log.txt` cùng thư mục — mở file này để xem chính xác lệnh VLC nào đã chạy và lỗi gì đã xảy ra.
 
@@ -182,7 +182,7 @@ Sheet quản lý: `ATG Play multi mornitor - License`
 
 - Mở Settings, bấm **"Tạo & sao chép"** ở dòng Mã máy rồi dán vào cột `MaMay`.
 - Thêm 1 dòng mới trong Sheet với `LicenseKey`, `MaMay` và `ThoiGianOffline`.
-- Mở `settings.pyw` khi chạy mã nguồn hoặc `ATG_Signage.exe` ở bản phát hành, dán đúng `LicenseKey` đó vào ô **"License Key"**.
+- Mở `settings.pyw` khi chạy mã nguồn hoặc `ATG-Multi-Mornitor-Control.exe` ở bản phát hành, dán đúng `LicenseKey` đó vào ô **"License Key"**.
 - Bấm **"Kiểm tra License"** để xác nhận ngay trong giao diện (hiện ✅ hợp lệ / ❌ lỗi kèm lý do cụ thể).
 - Bấm **"Lưu & Áp dụng"** để lưu License Key vào `config.atg` đã mã hóa.
 
@@ -255,9 +255,9 @@ assets/
 4. Sau khi build xong, toàn bộ file cần triển khai nằm trong thư mục **`dist_release\`**:
    ```
    dist_release/
-   └── ATG_Signage.exe  <- một file duy nhất, đã nhúng Settings, Launcher và assets
+   └── ATG-Multi-Mornitor-Control.exe  <- một file duy nhất, đã nhúng Settings, Launcher và assets
    ```
-5. **Triển khai:** chỉ cần copy `ATG_Signage.exe` sang máy đích. Máy đích
+5. **Triển khai:** chỉ cần copy `ATG-Multi-Mornitor-Control.exe` sang máy đích. Máy đích
    **không cần cài Python**. Mở EXE bình thường để cấu hình; phần mềm tự gọi chính
    EXE với tham số `--launcher` khi chạy VLC hoặc khởi động cùng Windows.
 

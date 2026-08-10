@@ -521,3 +521,258 @@
 2026-08-01 10:58:43,793 [SYNC] FOREGROUND CONTAIN SUCCESS | source=kiem tra__page_0001.png | source_size=612x792 | target=320x240 | foreground=185x240 | position=67,0 | cropped=false | content_preserved=true
 2026-08-01 10:58:43,795 [SYNC] DOCUMENT OUTPUT REPLACED C:\Users\BUIDUYTHONG-LAP\AppData\Local\Temp\atg_v124_integration\PLAY\kiem tra__pages
 2026-08-01 10:58:43,841 [SYNC] DONE copied=0 converted=1 unchanged=0 deleted=0 failed=0 play=1 elapsed=32.9s
+2026-08-10 15:13:44,054 [SYNC] LIBREOFFICE SEARCH START
+2026-08-10 15:13:44,054 [SYNC] LIBREOFFICE CANDIDATE C:\Program Files\LibreOffice\program\soffice.exe
+2026-08-10 15:13:44,055 [SYNC] LIBREOFFICE SELECTED C:\Program Files\LibreOffice\program\soffice.exe
+2026-08-10 15:14:03,552 ==================================================
+2026-08-10 15:14:03,552 [MAIN] Khoi dong chuong trinh VLC Signage
+2026-08-10 15:14:03,553 [VALIDATE] OK - SOURCE/PLAY an toan.
+2026-08-10 15:14:04,962 [LICENSE] KHONG HOP LE: License đã được gắn cho máy khác hoặc Mã máy không khớp.
+2026-08-10 15:14:11,972 [LICENSE] Tu choi khoi dong do license het han/bi khoa/sai may.
+2026-08-10 15:14:27,888 ==================================================
+2026-08-10 15:14:27,888 [MAIN] Khoi dong chuong trinh VLC Signage
+2026-08-10 15:14:27,889 [VALIDATE] OK - SOURCE/PLAY an toan.
+2026-08-10 15:14:28,875 [LICENSE] KHONG HOP LE: License đã được gắn cho máy khác hoặc Mã máy không khớp.
+2026-08-10 15:14:31,203 [LICENSE] Tu choi khoi dong do license het han/bi khoa/sai may.
+2026-08-10 15:19:29,229 [SYNC] START SOURCE=D:\VIDEO_DEBUG\2026-08-10 PLAY=D:\ATG_Soft\Play files=139
+2026-08-10 15:19:53,657 [SYNC] DONE copied=139 converted=0 unchanged=0 deleted=0 failed=0 play=139 elapsed=24.5s
+2026-08-10 15:19:56,172 ==================================================
+2026-08-10 15:19:56,173 [MAIN] Khoi dong chuong trinh VLC Signage
+2026-08-10 15:19:56,174 [VALIDATE] OK - SOURCE/PLAY an toan.
+2026-08-10 15:19:57,140 [LICENSE] KHONG HOP LE: License đã được gắn cho máy khác hoặc Mã máy không khớp.
+2026-08-10 15:20:04,259 [LICENSE] Tu choi khoi dong do license het han/bi khoa/sai may.
+2026-08-10 15:20:16,953 [SYNC] START SOURCE=D:\VIDEO_DEBUG\2026-08-10 PLAY=D:\ATG_Soft\Play files=139
+2026-08-10 15:20:17,090 [SYNC] DONE copied=0 converted=0 unchanged=139 deleted=0 failed=0 play=139 elapsed=0.2s
+2026-08-10 15:20:19,294 ==================================================
+2026-08-10 15:20:19,294 [MAIN] Khoi dong chuong trinh VLC Signage
+2026-08-10 15:20:19,295 [VALIDATE] OK - SOURCE/PLAY an toan.
+2026-08-10 15:20:20,247 [LICENSE] OK: License hợp lệ — Admin-Debug (offline tối đa 60 ngày)
+2026-08-10 15:20:20,335 [START] Khoi dong VLC voi lenh: C:\Program Files\VideoLAN\VLC\vlc.exe D:\PYTHON\ATG-Multi-Mornitor-Control\playlist.m3u --loop --image-duration=10 --fullscreen --no-video-title-show --extraintf=http --http-host=127.0.0.1 --http-port=8080 --http-password=***
+2026-08-10 15:20:23,351 [WATCH] Dang theo doi thay doi thu muc (watchdog).
+2026-08-10 15:20:31,091 [MAIN] VLC da dong, thoat chuong trinh.
+2026-08-10 15:21:01,573 [SYNC] START SOURCE=D:\VIDEO_DEBUG\2026-08-10 PLAY=D:\ATG_Soft\Play files=139
+2026-08-10 15:21:01,720 [SYNC] DONE copied=0 converted=0 unchanged=139 deleted=0 failed=0 play=139 elapsed=0.2s
+2026-08-10 15:21:03,900 ==================================================
+2026-08-10 15:21:03,900 [MAIN] Khoi dong chuong trinh VLC Signage
+2026-08-10 15:21:03,901 [VALIDATE] OK - SOURCE/PLAY an toan.
+2026-08-10 15:21:04,872 [LICENSE] OK: License hợp lệ — Admin-Debug (offline tối đa 60 ngày)
+2026-08-10 15:21:04,961 [START] Khoi dong VLC voi lenh: C:\Program Files\VideoLAN\VLC\vlc.exe D:\PYTHON\ATG-Multi-Mornitor-Control\playlist.m3u --loop --image-duration=10 --fullscreen --no-video-title-show --extraintf=http --http-host=127.0.0.1 --http-port=8080 --http-password=***
+2026-08-10 15:21:07,977 [WATCH] Dang theo doi thay doi thu muc (watchdog).
+2026-08-10 15:21:08,831 [MAIN] VLC da dong, thoat chuong trinh.
+2026-08-10 15:31:21,192 [LICENSE] CLOCK ROLLBACK DETECTED
+2026-08-10 15:31:21,213 [LICENSE] Cache cannot be decrypted (JSONDecodeError)
+2026-08-10 15:31:21,227 [LICENSE] OFFLINE CACHE EXPIRED
+2026-08-10 15:31:21,239 [LICENSE] OFFLINE CACHE OK
+2026-08-10 15:31:21,267 [LICENSE] ONLINE INVALID
+2026-08-10 15:31:21,270 [LICENSE] ONLINE INVALID
+2026-08-10 15:31:21,277 [LICENSE] ONLINE INVALID
+2026-08-10 15:31:21,292 [LICENSE] OFFLINE CACHE OK
+2026-08-10 15:31:21,295 [LICENSE] ONLINE OK
+2026-08-10 15:31:21,306 [LICENSE] ONLINE OK
+2026-08-10 15:31:21,317 [LICENSE] ONLINE INVALID
+2026-08-10 15:31:28,234 [LICENSE] CLOCK ROLLBACK DETECTED
+2026-08-10 15:31:28,249 [LICENSE] Cache cannot be decrypted (JSONDecodeError)
+2026-08-10 15:31:28,260 [LICENSE] OFFLINE CACHE EXPIRED
+2026-08-10 15:31:28,276 [LICENSE] OFFLINE CACHE OK
+2026-08-10 15:31:28,302 [LICENSE] ONLINE INVALID
+2026-08-10 15:31:28,306 [LICENSE] ONLINE INVALID
+2026-08-10 15:31:28,313 [LICENSE] ONLINE INVALID
+2026-08-10 15:31:28,327 [LICENSE] OFFLINE CACHE OK
+2026-08-10 15:31:28,329 [LICENSE] ONLINE OK
+2026-08-10 15:31:28,343 [LICENSE] ONLINE OK
+2026-08-10 15:31:28,356 [LICENSE] ONLINE INVALID
+2026-08-10 15:31:28,370 [SYNC] START SOURCE=C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmp8hrb6cru\SOURCE PLAY=C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmp8hrb6cru\PLAY files=2
+2026-08-10 15:31:28,417 [SYNC] DONE copied=2 converted=0 unchanged=0 deleted=0 failed=0 play=2 elapsed=0.1s
+2026-08-10 15:31:28,428 [SYNC] START SOURCE=C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmp8hrb6cru\SOURCE PLAY=C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmp8hrb6cru\PLAY files=2
+2026-08-10 15:31:28,431 [SYNC] IMAGE DISPLAY MODE: fit_background | FOREGROUND CONTAIN START poster.png
+2026-08-10 15:31:28,432 [SYNC] BACKGROUND BLUR CREATED poster.png
+2026-08-10 15:31:28,441 [SYNC] FOREGROUND CONTAIN SUCCESS | source=poster.png | source_size=50x90 | target=90x50 | foreground=28x50 | position=31,0 | cropped=false | content_preserved=true
+2026-08-10 15:31:28,444 [SYNC] DONE copied=1 converted=0 unchanged=1 deleted=0 failed=0 play=2 elapsed=0.0s
+2026-08-10 15:31:28,451 [SYNC] START SOURCE=C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmpn7qo8cdo\SOURCE PLAY=C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmpn7qo8cdo\PLAY files=1
+2026-08-10 15:31:28,455 [SYNC] DONE copied=1 converted=0 unchanged=0 deleted=0 failed=0 play=1 elapsed=0.0s
+2026-08-10 15:31:28,466 [SYNC] START SOURCE=C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmpn7qo8cdo\SOURCE PLAY=C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmpn7qo8cdo\PLAY files=1
+2026-08-10 15:31:28,469 [SYNC] DONE copied=0 converted=0 unchanged=1 deleted=0 failed=0 play=1 elapsed=0.0s
+2026-08-10 15:31:28,485 [SYNC] START SOURCE=C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmpn7qo8cdo\SOURCE PLAY=C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmpn7qo8cdo\PLAY files=1
+2026-08-10 15:31:28,496 [SYNC] DONE copied=1 converted=0 unchanged=0 deleted=0 failed=0 play=1 elapsed=0.0s
+2026-08-10 15:31:28,508 [SYNC] START SOURCE=C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmpn7qo8cdo\SOURCE PLAY=C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmpn7qo8cdo\PLAY files=0
+2026-08-10 15:31:28,513 [SYNC] DONE copied=0 converted=0 unchanged=0 deleted=1 failed=0 play=0 elapsed=0.0s
+2026-08-10 15:31:28,547 [SYNC] IMAGE DISPLAY MODE: fit_background | FOREGROUND CONTAIN START page.png
+2026-08-10 15:31:28,549 [SYNC] DOCUMENT SOLID BACKGROUND CREATED page.png color=#FFFFFF
+2026-08-10 15:31:28,621 [SYNC] FOREGROUND CONTAIN SUCCESS | source=page.png | source_size=1200x1800 | target=1920x1080 | foreground=720x1080 | position=600,0 | cropped=false | content_preserved=true
+2026-08-10 15:31:28,624 [SYNC] LIBREOFFICE SEARCH START
+2026-08-10 15:31:28,625 [SYNC] LIBREOFFICE CANDIDATE C:\Users\X04-BU~1\AppData\Local\Temp\tmp32gaw13r\soffice.exe
+2026-08-10 15:31:28,625 [SYNC] LIBREOFFICE SELECTED C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmp32gaw13r\soffice.exe
+2026-08-10 15:31:28,626 [SYNC] LIBREOFFICE SEARCH START
+2026-08-10 15:31:28,627 [SYNC] LIBREOFFICE CANDIDATE C:\Users\X04-BU~1\AppData\Local\Temp\tmp32gaw13r\wpsoffice.exe
+2026-08-10 15:31:28,627 [SYNC] LIBREOFFICE CANDIDATE C:\Program Files\LibreOffice\program\soffice.exe
+2026-08-10 15:31:28,627 [SYNC] LIBREOFFICE SELECTED C:\Program Files\LibreOffice\program\soffice.exe
+2026-08-10 15:31:28,645 [SYNC] IMAGE DISPLAY MODE: fit_background | FOREGROUND CONTAIN START notice.png
+2026-08-10 15:31:28,763 [SYNC] BACKGROUND BLUR CREATED notice.png
+2026-08-10 15:31:28,825 [SYNC] FOREGROUND CONTAIN SUCCESS | source=notice.png | source_size=720x537 | target=1920x1080 | foreground=1448x1080 | position=236,0 | cropped=false | content_preserved=true
+2026-08-10 15:31:28,833 [SYNC] START SOURCE=C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmpmzro3hkj\SOURCE PLAY=C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmpmzro3hkj\PLAY files=1
+2026-08-10 15:31:28,844 [SYNC] DONE copied=1 converted=0 unchanged=0 deleted=0 failed=0 play=1 elapsed=0.0s
+2026-08-10 15:31:28,867 [SYNC] START SOURCE=C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmpnczbu8t8\SOURCE PLAY=C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmpnczbu8t8\PLAY files=1
+2026-08-10 15:31:28,868 [SYNC] PDF RENDER START C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmpnczbu8t8\SOURCE\Thông báo.pdf
+2026-08-10 15:31:28,909 [SYNC] PDF RENDER SUCCESS Thông báo.pdf pages=3
+2026-08-10 15:31:28,976 [SYNC] DOCUMENT OUTPUT REPLACED C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmpnczbu8t8\PLAY\Thông báo__pages
+2026-08-10 15:31:28,979 [SYNC] DONE copied=0 converted=1 unchanged=0 deleted=0 failed=0 play=3 elapsed=0.1s
+2026-08-10 15:31:28,990 [SYNC] START SOURCE=C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmpnczbu8t8\SOURCE PLAY=C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmpnczbu8t8\PLAY files=1
+2026-08-10 15:31:28,991 [SYNC] PDF RENDER START C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmpnczbu8t8\SOURCE\Thông báo.pdf
+2026-08-10 15:31:29,000 [SYNC] ERROR Thông báo.pdf: Failed to open file 'C:\\Users\\X04-BUIDUYTHONG\\AppData\\Local\\Temp\\tmpnczbu8t8\\SOURCE\\Thông báo.pdf' as type pdf.
+2026-08-10 15:31:29,004 [SYNC] DONE copied=0 converted=0 unchanged=0 deleted=0 failed=1 play=3 elapsed=0.0s
+2026-08-10 15:32:06,814 [LICENSE] CLOCK ROLLBACK DETECTED
+2026-08-10 15:32:06,825 [LICENSE] OFFLINE CACHE EXPIRED
+2026-08-10 15:32:06,829 [LICENSE] Cache cannot be decrypted (JSONDecodeError)
+2026-08-10 15:32:06,840 [LICENSE] OFFLINE CACHE EXPIRED
+2026-08-10 15:32:06,857 [LICENSE] OFFLINE CACHE OK
+2026-08-10 15:32:06,883 [LICENSE] ONLINE INVALID
+2026-08-10 15:32:06,886 [LICENSE] ONLINE INVALID
+2026-08-10 15:32:06,892 [LICENSE] ONLINE INVALID
+2026-08-10 15:32:06,906 [LICENSE] OFFLINE CACHE OK
+2026-08-10 15:32:06,909 [LICENSE] ONLINE OK
+2026-08-10 15:32:06,922 [LICENSE] ONLINE OK
+2026-08-10 15:32:06,934 [LICENSE] ONLINE INVALID
+2026-08-10 15:32:06,950 [SYNC] START SOURCE=C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmpdl8yd_7m\SOURCE PLAY=C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmpdl8yd_7m\PLAY files=2
+2026-08-10 15:32:06,964 [SYNC] DONE copied=2 converted=0 unchanged=0 deleted=0 failed=0 play=2 elapsed=0.0s
+2026-08-10 15:32:06,975 [SYNC] START SOURCE=C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmpdl8yd_7m\SOURCE PLAY=C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmpdl8yd_7m\PLAY files=2
+2026-08-10 15:32:06,978 [SYNC] IMAGE DISPLAY MODE: fit_background | FOREGROUND CONTAIN START poster.png
+2026-08-10 15:32:06,979 [SYNC] BACKGROUND BLUR CREATED poster.png
+2026-08-10 15:32:06,982 [SYNC] FOREGROUND CONTAIN SUCCESS | source=poster.png | source_size=50x90 | target=90x50 | foreground=28x50 | position=31,0 | cropped=false | content_preserved=true
+2026-08-10 15:32:06,986 [SYNC] DONE copied=1 converted=0 unchanged=1 deleted=0 failed=0 play=2 elapsed=0.0s
+2026-08-10 15:32:06,993 [SYNC] START SOURCE=C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmpmz439cpv\SOURCE PLAY=C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmpmz439cpv\PLAY files=1
+2026-08-10 15:32:06,998 [SYNC] DONE copied=1 converted=0 unchanged=0 deleted=0 failed=0 play=1 elapsed=0.0s
+2026-08-10 15:32:07,009 [SYNC] START SOURCE=C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmpmz439cpv\SOURCE PLAY=C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmpmz439cpv\PLAY files=1
+2026-08-10 15:32:07,012 [SYNC] DONE copied=0 converted=0 unchanged=1 deleted=0 failed=0 play=1 elapsed=0.0s
+2026-08-10 15:32:07,042 [SYNC] START SOURCE=C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmpmz439cpv\SOURCE PLAY=C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmpmz439cpv\PLAY files=1
+2026-08-10 15:32:07,049 [SYNC] DONE copied=1 converted=0 unchanged=0 deleted=0 failed=0 play=1 elapsed=0.0s
+2026-08-10 15:32:07,061 [SYNC] START SOURCE=C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmpmz439cpv\SOURCE PLAY=C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmpmz439cpv\PLAY files=0
+2026-08-10 15:32:07,065 [SYNC] DONE copied=0 converted=0 unchanged=0 deleted=1 failed=0 play=0 elapsed=0.0s
+2026-08-10 15:32:07,099 [SYNC] IMAGE DISPLAY MODE: fit_background | FOREGROUND CONTAIN START page.png
+2026-08-10 15:32:07,100 [SYNC] DOCUMENT SOLID BACKGROUND CREATED page.png color=#FFFFFF
+2026-08-10 15:32:07,173 [SYNC] FOREGROUND CONTAIN SUCCESS | source=page.png | source_size=1200x1800 | target=1920x1080 | foreground=720x1080 | position=600,0 | cropped=false | content_preserved=true
+2026-08-10 15:32:07,177 [SYNC] LIBREOFFICE SEARCH START
+2026-08-10 15:32:07,177 [SYNC] LIBREOFFICE CANDIDATE C:\Users\X04-BU~1\AppData\Local\Temp\tmpulwoea_z\soffice.exe
+2026-08-10 15:32:07,177 [SYNC] LIBREOFFICE SELECTED C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmpulwoea_z\soffice.exe
+2026-08-10 15:32:07,178 [SYNC] LIBREOFFICE SEARCH START
+2026-08-10 15:32:07,179 [SYNC] LIBREOFFICE CANDIDATE C:\Users\X04-BU~1\AppData\Local\Temp\tmpulwoea_z\wpsoffice.exe
+2026-08-10 15:32:07,179 [SYNC] LIBREOFFICE CANDIDATE C:\Program Files\LibreOffice\program\soffice.exe
+2026-08-10 15:32:07,179 [SYNC] LIBREOFFICE SELECTED C:\Program Files\LibreOffice\program\soffice.exe
+2026-08-10 15:32:07,191 [SYNC] IMAGE DISPLAY MODE: fit_background | FOREGROUND CONTAIN START notice.png
+2026-08-10 15:32:07,313 [SYNC] BACKGROUND BLUR CREATED notice.png
+2026-08-10 15:32:07,375 [SYNC] FOREGROUND CONTAIN SUCCESS | source=notice.png | source_size=720x537 | target=1920x1080 | foreground=1448x1080 | position=236,0 | cropped=false | content_preserved=true
+2026-08-10 15:32:07,381 [SYNC] START SOURCE=C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmpnb65de5c\SOURCE PLAY=C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmpnb65de5c\PLAY files=1
+2026-08-10 15:32:07,386 [SYNC] DONE copied=1 converted=0 unchanged=0 deleted=0 failed=0 play=1 elapsed=0.0s
+2026-08-10 15:32:07,410 [SYNC] START SOURCE=C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmpxlpf0dr_\SOURCE PLAY=C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmpxlpf0dr_\PLAY files=1
+2026-08-10 15:32:07,411 [SYNC] PDF RENDER START C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmpxlpf0dr_\SOURCE\Thông báo.pdf
+2026-08-10 15:32:07,451 [SYNC] PDF RENDER SUCCESS Thông báo.pdf pages=3
+2026-08-10 15:32:07,479 [SYNC] DOCUMENT OUTPUT REPLACED C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmpxlpf0dr_\PLAY\Thông báo__pages
+2026-08-10 15:32:07,484 [SYNC] DONE copied=0 converted=1 unchanged=0 deleted=0 failed=0 play=3 elapsed=0.1s
+2026-08-10 15:32:07,496 [SYNC] START SOURCE=C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmpxlpf0dr_\SOURCE PLAY=C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmpxlpf0dr_\PLAY files=1
+2026-08-10 15:32:07,497 [SYNC] PDF RENDER START C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmpxlpf0dr_\SOURCE\Thông báo.pdf
+2026-08-10 15:32:07,499 [SYNC] ERROR Thông báo.pdf: Failed to open file 'C:\\Users\\X04-BUIDUYTHONG\\AppData\\Local\\Temp\\tmpxlpf0dr_\\SOURCE\\Thông báo.pdf' as type pdf.
+2026-08-10 15:32:07,503 [SYNC] DONE copied=0 converted=0 unchanged=0 deleted=0 failed=1 play=3 elapsed=0.0s
+2026-08-10 15:36:12,093 [LICENSE] ONLINE OK
+2026-08-10 16:15:03,111 [LICENSE] CLOCK ROLLBACK DETECTED
+2026-08-10 16:15:03,134 [LICENSE] OFFLINE CACHE EXPIRED
+2026-08-10 16:15:03,146 [LICENSE] Cache cannot be decrypted (JSONDecodeError)
+2026-08-10 16:15:03,160 [LICENSE] OFFLINE CACHE EXPIRED
+2026-08-10 16:15:03,174 [LICENSE] OFFLINE CACHE OK
+2026-08-10 16:15:03,230 [LICENSE] ONLINE INVALID
+2026-08-10 16:15:03,244 [LICENSE] ONLINE INVALID
+2026-08-10 16:15:03,255 [LICENSE] ONLINE INVALID
+2026-08-10 16:15:03,272 [LICENSE] OFFLINE CACHE OK
+2026-08-10 16:15:03,298 [LICENSE] ONLINE OK
+2026-08-10 16:15:03,312 [LICENSE] ONLINE OK
+2026-08-10 16:15:03,326 [LICENSE] ONLINE INVALID
+2026-08-10 16:15:03,340 [SYNC] START SOURCE=C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmpqd5ygth6\SOURCE PLAY=C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmpqd5ygth6\PLAY files=2
+2026-08-10 16:15:03,390 [SYNC] DONE copied=2 converted=0 unchanged=0 deleted=0 failed=0 play=2 elapsed=0.0s
+2026-08-10 16:15:03,400 [SYNC] START SOURCE=C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmpqd5ygth6\SOURCE PLAY=C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmpqd5ygth6\PLAY files=2
+2026-08-10 16:15:03,403 [SYNC] IMAGE DISPLAY MODE: fit_background | FOREGROUND CONTAIN START poster.png
+2026-08-10 16:15:03,404 [SYNC] BACKGROUND BLUR CREATED poster.png
+2026-08-10 16:15:03,414 [SYNC] FOREGROUND CONTAIN SUCCESS | source=poster.png | source_size=50x90 | target=90x50 | foreground=28x50 | position=31,0 | cropped=false | content_preserved=true
+2026-08-10 16:15:03,418 [SYNC] DONE copied=1 converted=0 unchanged=1 deleted=0 failed=0 play=2 elapsed=0.0s
+2026-08-10 16:15:03,426 [SYNC] START SOURCE=C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmpbz98su4_\SOURCE PLAY=C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmpbz98su4_\PLAY files=1
+2026-08-10 16:15:03,431 [SYNC] DONE copied=1 converted=0 unchanged=0 deleted=0 failed=0 play=1 elapsed=0.0s
+2026-08-10 16:15:03,442 [SYNC] START SOURCE=C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmpbz98su4_\SOURCE PLAY=C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmpbz98su4_\PLAY files=1
+2026-08-10 16:15:03,446 [SYNC] DONE copied=0 converted=0 unchanged=1 deleted=0 failed=0 play=1 elapsed=0.0s
+2026-08-10 16:15:03,461 [SYNC] START SOURCE=C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmpbz98su4_\SOURCE PLAY=C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmpbz98su4_\PLAY files=1
+2026-08-10 16:15:03,472 [SYNC] DONE copied=1 converted=0 unchanged=0 deleted=0 failed=0 play=1 elapsed=0.0s
+2026-08-10 16:15:03,484 [SYNC] START SOURCE=C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmpbz98su4_\SOURCE PLAY=C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmpbz98su4_\PLAY files=0
+2026-08-10 16:15:03,489 [SYNC] DONE copied=0 converted=0 unchanged=0 deleted=1 failed=0 play=0 elapsed=0.0s
+2026-08-10 16:15:03,523 [SYNC] IMAGE DISPLAY MODE: fit_background | FOREGROUND CONTAIN START page.png
+2026-08-10 16:15:03,526 [SYNC] DOCUMENT SOLID BACKGROUND CREATED page.png color=#FFFFFF
+2026-08-10 16:15:03,601 [SYNC] FOREGROUND CONTAIN SUCCESS | source=page.png | source_size=1200x1800 | target=1920x1080 | foreground=720x1080 | position=600,0 | cropped=false | content_preserved=true
+2026-08-10 16:15:03,604 [SYNC] LIBREOFFICE SEARCH START
+2026-08-10 16:15:03,605 [SYNC] LIBREOFFICE CANDIDATE C:\Users\X04-BU~1\AppData\Local\Temp\tmp0hmeuj3z\soffice.exe
+2026-08-10 16:15:03,605 [SYNC] LIBREOFFICE SELECTED C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmp0hmeuj3z\soffice.exe
+2026-08-10 16:15:03,606 [SYNC] LIBREOFFICE SEARCH START
+2026-08-10 16:15:03,607 [SYNC] LIBREOFFICE CANDIDATE C:\Users\X04-BU~1\AppData\Local\Temp\tmp0hmeuj3z\wpsoffice.exe
+2026-08-10 16:15:03,607 [SYNC] LIBREOFFICE CANDIDATE C:\Program Files\LibreOffice\program\soffice.exe
+2026-08-10 16:15:03,607 [SYNC] LIBREOFFICE SELECTED C:\Program Files\LibreOffice\program\soffice.exe
+2026-08-10 16:15:03,627 [SYNC] IMAGE DISPLAY MODE: fit_background | FOREGROUND CONTAIN START notice.png
+2026-08-10 16:15:03,747 [SYNC] BACKGROUND BLUR CREATED notice.png
+2026-08-10 16:15:03,812 [SYNC] FOREGROUND CONTAIN SUCCESS | source=notice.png | source_size=720x537 | target=1920x1080 | foreground=1448x1080 | position=236,0 | cropped=false | content_preserved=true
+2026-08-10 16:15:03,820 [SYNC] START SOURCE=C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmp6merjnih\SOURCE PLAY=C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmp6merjnih\PLAY files=1
+2026-08-10 16:15:03,831 [SYNC] DONE copied=1 converted=0 unchanged=0 deleted=0 failed=0 play=1 elapsed=0.0s
+2026-08-10 16:15:03,855 [SYNC] START SOURCE=C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmpdceq2ndx\SOURCE PLAY=C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmpdceq2ndx\PLAY files=1
+2026-08-10 16:15:03,856 [SYNC] PDF RENDER START C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmpdceq2ndx\SOURCE\Thông báo.pdf
+2026-08-10 16:15:03,898 [SYNC] PDF RENDER SUCCESS Thông báo.pdf pages=3
+2026-08-10 16:15:03,967 [SYNC] DOCUMENT OUTPUT REPLACED C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmpdceq2ndx\PLAY\Thông báo__pages
+2026-08-10 16:15:03,971 [SYNC] DONE copied=0 converted=1 unchanged=0 deleted=0 failed=0 play=3 elapsed=0.1s
+2026-08-10 16:15:03,983 [SYNC] START SOURCE=C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmpdceq2ndx\SOURCE PLAY=C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmpdceq2ndx\PLAY files=1
+2026-08-10 16:15:03,984 [SYNC] PDF RENDER START C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmpdceq2ndx\SOURCE\Thông báo.pdf
+2026-08-10 16:15:03,992 [SYNC] ERROR Thông báo.pdf: Failed to open file 'C:\\Users\\X04-BUIDUYTHONG\\AppData\\Local\\Temp\\tmpdceq2ndx\\SOURCE\\Thông báo.pdf' as type pdf.
+2026-08-10 16:15:03,997 [SYNC] DONE copied=0 converted=0 unchanged=0 deleted=0 failed=1 play=3 elapsed=0.0s
+2026-08-10 16:16:27,679 [LICENSE] CLOCK ROLLBACK DETECTED
+2026-08-10 16:16:27,694 [LICENSE] Migrated legacy encrypted cache to ProgramData
+2026-08-10 16:16:27,697 [LICENSE] OFFLINE CACHE OK
+2026-08-10 16:16:27,709 [LICENSE] OFFLINE CACHE EXPIRED
+2026-08-10 16:16:27,713 [LICENSE] Cache cannot be decrypted (JSONDecodeError)
+2026-08-10 16:16:27,736 [LICENSE] OFFLINE CACHE EXPIRED
+2026-08-10 16:16:27,753 [LICENSE] OFFLINE CACHE OK
+2026-08-10 16:16:27,779 [LICENSE] ONLINE INVALID
+2026-08-10 16:16:27,784 [LICENSE] ONLINE INVALID
+2026-08-10 16:16:27,799 [LICENSE] ONLINE INVALID
+2026-08-10 16:16:27,815 [LICENSE] OFFLINE CACHE OK
+2026-08-10 16:16:27,818 [LICENSE] ONLINE OK
+2026-08-10 16:16:27,830 [LICENSE] ONLINE OK
+2026-08-10 16:16:27,841 [LICENSE] ONLINE INVALID
+2026-08-10 16:16:27,854 [SYNC] START SOURCE=C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmpiwb1398n\SOURCE PLAY=C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmpiwb1398n\PLAY files=2
+2026-08-10 16:16:27,890 [SYNC] DONE copied=2 converted=0 unchanged=0 deleted=0 failed=0 play=2 elapsed=0.0s
+2026-08-10 16:16:27,909 [SYNC] START SOURCE=C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmpiwb1398n\SOURCE PLAY=C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmpiwb1398n\PLAY files=2
+2026-08-10 16:16:27,914 [SYNC] IMAGE DISPLAY MODE: fit_background | FOREGROUND CONTAIN START poster.png
+2026-08-10 16:16:27,914 [SYNC] BACKGROUND BLUR CREATED poster.png
+2026-08-10 16:16:27,917 [SYNC] FOREGROUND CONTAIN SUCCESS | source=poster.png | source_size=50x90 | target=90x50 | foreground=28x50 | position=31,0 | cropped=false | content_preserved=true
+2026-08-10 16:16:27,922 [SYNC] DONE copied=1 converted=0 unchanged=1 deleted=0 failed=0 play=2 elapsed=0.0s
+2026-08-10 16:16:27,929 [SYNC] START SOURCE=C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmp_qo9ix3o\SOURCE PLAY=C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmp_qo9ix3o\PLAY files=1
+2026-08-10 16:16:27,935 [SYNC] DONE copied=1 converted=0 unchanged=0 deleted=0 failed=0 play=1 elapsed=0.0s
+2026-08-10 16:16:27,946 [SYNC] START SOURCE=C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmp_qo9ix3o\SOURCE PLAY=C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmp_qo9ix3o\PLAY files=1
+2026-08-10 16:16:27,949 [SYNC] DONE copied=0 converted=0 unchanged=1 deleted=0 failed=0 play=1 elapsed=0.0s
+2026-08-10 16:16:27,970 [SYNC] START SOURCE=C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmp_qo9ix3o\SOURCE PLAY=C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmp_qo9ix3o\PLAY files=1
+2026-08-10 16:16:27,978 [SYNC] DONE copied=1 converted=0 unchanged=0 deleted=0 failed=0 play=1 elapsed=0.0s
+2026-08-10 16:16:27,989 [SYNC] START SOURCE=C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmp_qo9ix3o\SOURCE PLAY=C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmp_qo9ix3o\PLAY files=0
+2026-08-10 16:16:27,995 [SYNC] DONE copied=0 converted=0 unchanged=0 deleted=1 failed=0 play=0 elapsed=0.0s
+2026-08-10 16:16:28,034 [SYNC] IMAGE DISPLAY MODE: fit_background | FOREGROUND CONTAIN START page.png
+2026-08-10 16:16:28,035 [SYNC] DOCUMENT SOLID BACKGROUND CREATED page.png color=#FFFFFF
+2026-08-10 16:16:28,108 [SYNC] FOREGROUND CONTAIN SUCCESS | source=page.png | source_size=1200x1800 | target=1920x1080 | foreground=720x1080 | position=600,0 | cropped=false | content_preserved=true
+2026-08-10 16:16:28,111 [SYNC] LIBREOFFICE SEARCH START
+2026-08-10 16:16:28,112 [SYNC] LIBREOFFICE CANDIDATE C:\Users\X04-BU~1\AppData\Local\Temp\tmp2yu7qpp_\soffice.exe
+2026-08-10 16:16:28,112 [SYNC] LIBREOFFICE SELECTED C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmp2yu7qpp_\soffice.exe
+2026-08-10 16:16:28,113 [SYNC] LIBREOFFICE SEARCH START
+2026-08-10 16:16:28,114 [SYNC] LIBREOFFICE CANDIDATE C:\Users\X04-BU~1\AppData\Local\Temp\tmp2yu7qpp_\wpsoffice.exe
+2026-08-10 16:16:28,114 [SYNC] LIBREOFFICE CANDIDATE C:\Program Files\LibreOffice\program\soffice.exe
+2026-08-10 16:16:28,115 [SYNC] LIBREOFFICE SELECTED C:\Program Files\LibreOffice\program\soffice.exe
+2026-08-10 16:16:28,133 [SYNC] IMAGE DISPLAY MODE: fit_background | FOREGROUND CONTAIN START notice.png
+2026-08-10 16:16:28,255 [SYNC] BACKGROUND BLUR CREATED notice.png
+2026-08-10 16:16:28,321 [SYNC] FOREGROUND CONTAIN SUCCESS | source=notice.png | source_size=720x537 | target=1920x1080 | foreground=1448x1080 | position=236,0 | cropped=false | content_preserved=true
+2026-08-10 16:16:28,327 [SYNC] START SOURCE=C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmpa1yt03ay\SOURCE PLAY=C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmpa1yt03ay\PLAY files=1
+2026-08-10 16:16:28,338 [SYNC] DONE copied=1 converted=0 unchanged=0 deleted=0 failed=0 play=1 elapsed=0.0s
+2026-08-10 16:16:28,362 [SYNC] START SOURCE=C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmp0av2jpub\SOURCE PLAY=C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmp0av2jpub\PLAY files=1
+2026-08-10 16:16:28,363 [SYNC] PDF RENDER START C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmp0av2jpub\SOURCE\Thông báo.pdf
+2026-08-10 16:16:28,404 [SYNC] PDF RENDER SUCCESS Thông báo.pdf pages=3
+2026-08-10 16:16:28,439 [SYNC] DOCUMENT OUTPUT REPLACED C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmp0av2jpub\PLAY\Thông báo__pages
+2026-08-10 16:16:28,455 [SYNC] DONE copied=0 converted=1 unchanged=0 deleted=0 failed=0 play=3 elapsed=0.1s
+2026-08-10 16:16:28,467 [SYNC] START SOURCE=C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmp0av2jpub\SOURCE PLAY=C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmp0av2jpub\PLAY files=1
+2026-08-10 16:16:28,468 [SYNC] PDF RENDER START C:\Users\X04-BUIDUYTHONG\AppData\Local\Temp\tmp0av2jpub\SOURCE\Thông báo.pdf
+2026-08-10 16:16:28,477 [SYNC] ERROR Thông báo.pdf: Failed to open file 'C:\\Users\\X04-BUIDUYTHONG\\AppData\\Local\\Temp\\tmp0av2jpub\\SOURCE\\Thông báo.pdf' as type pdf.
+2026-08-10 16:16:28,481 [SYNC] DONE copied=0 converted=0 unchanged=0 deleted=0 failed=1 play=3 elapsed=0.0s

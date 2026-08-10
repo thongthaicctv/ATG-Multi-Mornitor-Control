@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Các hàm dùng chung cho toàn bộ chương trình VLC Signage.
-"""
+"""Các hàm dùng chung cho ATG-Multi-Mornitor-Control."""
 import json
 import logging
 from logging.handlers import RotatingFileHandler
@@ -11,6 +9,10 @@ import re
 import sys
 
 from secure_storage import load_encrypted_json, save_encrypted_json
+
+APP_NAME = "ATG-Multi-Mornitor-Control"
+APP_VERSION = "1.2.4"
+APP_DISPLAY_VERSION = f"Version {APP_VERSION}"
 
 
 def _detect_app_dir():
@@ -183,7 +185,7 @@ def build_playlist_file(folder: str, playlist_path: str = PLAYLIST_PATH, recursi
 
 def resource_log(message: str):
     try:
-        logger = logging.getLogger("atg_signage")
+        logger = logging.getLogger(APP_NAME)
         if not logger.handlers:
             logger.setLevel(logging.INFO)
             handler = RotatingFileHandler(

@@ -1,0 +1,27 @@
+# Python
+.venv/
+venv/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+
+# Runtime ATG
+config.atg
+license_cache.atg
+log.txt
+playlist.m3u
+
+# Test/cache
+.pytest_cache/
+.coverage
+
+# Build
+build/
+dist/
+dist_release/
+*.spec
+
+# Temporary
+*.tmp
+*.bak
+~$*

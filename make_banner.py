@@ -1,7 +1,10 @@
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 
-LOGO_PATH = "/home/claude/vlc_signage/assets/logo.png"
-OUT_PATH = "/home/claude/vlc_signage/assets/banner.png"
+from pathlib import Path
+
+APP_DIR = Path(__file__).resolve().parent
+LOGO_PATH = APP_DIR / "assets" / "logo.png"
+OUT_PATH = APP_DIR / "assets" / "banner.png"
 
 FONT_BOLD = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
 FONT_REG = "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
@@ -42,7 +45,7 @@ tagline_font = ImageFont.truetype(FONT_REG, 24)
 
 draw2 = ImageDraw.Draw(bg)
 
-title = "ATG Multi Mornitor Control"
+title = "ATG-Multi-Mornitor-Control"
 draw2.text((text_x, 110), title, font=title_font, fill=(255, 255, 255, 255))
 
 subtitle = "Giải pháp phát nội dung đa màn hình"

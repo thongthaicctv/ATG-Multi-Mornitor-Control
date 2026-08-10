@@ -24,7 +24,7 @@ import urllib.request
 import urllib.parse
 
 from common import (
-    load_config, build_playlist_file, scan_media_files,
+    APP_NAME, load_config, build_playlist_file, scan_media_files,
     resource_log, PLAYLIST_PATH
 )
 import license_manager
@@ -39,7 +39,7 @@ except ImportError:
 
 IS_WINDOWS = sys.platform.startswith("win")
 TRIAL_SECONDS = 120  # 2 phút - thời gian chạy tối đa khi chưa có license hợp lệ
-LICENSE_RECHECK_SECONDS = 60
+LICENSE_RECHECK_SECONDS = 1800
 
 CONTACT_COMPANY = "CÔNG TY TNHH CÔNG NGHỆ VÀ THƯƠNG MẠI AN NGUYÊN"
 CONTACT_PHONE = "0932 333 000"
@@ -114,7 +114,7 @@ def enforce_trial_limit(reason: str):
     _stop_vlc()
 
     show_message_box(
-        "ATG Signage — Hết thời gian dùng thử",
+        f"{APP_NAME} — Hết thời gian dùng thử",
         _upgrade_message(reason, trial_ended=True),
     )
     resource_log("[TRIAL] Da hien thong bao, thoat chuong trinh.")
@@ -156,15 +156,19 @@ def monitor_license():
     """Xác minh lại định kỳ để thay đổi trên Google Sheet có hiệu lực khi app đang chạy."""
     while True:
         time.sleep(LICENSE_RECHECK_SECONDS)
-        is_valid, message = license_manager.validate_license(cfg)
-        if is_valid:
-            resource_log(f"[LICENSE] Kiem tra dinh ky OK: {message}")
+        result = license_manager.validate_license_detailed(cfg)
+        if result.valid:
+            resource_log(f"[LICENSE] Periodic check OK ({result.source})")
             continue
-        resource_log(f"[LICENSE] Bi thu hoi/het han khi dang chay: {message}")
+        resource_log(f"[LICENSE] Periodic check rejected: {result.reason}")
         _stop_vlc()
+        if result.source == "offline" and result.reason in ("offline_expired", "expired", "clock_rollback"):
+            title = f"{APP_NAME} — Cần kết nối Internet"
+        else:
+            title = f"{APP_NAME} — License không còn hiệu lực"
         show_message_box(
-            "ATG Signage — License không còn hiệu lực",
-            _upgrade_message(message),
+            title,
+            _upgrade_message(result.message),
         )
         os._exit(0)
 
@@ -359,20 +363,23 @@ def validate_config():
 
 def main():
     resource_log("=" * 50)
-    resource_log("[MAIN] Khoi dong chuong trinh VLC Signage")
+    resource_log(f"[MAIN] Khoi dong {APP_NAME}")
 
     validate_config()
 
-    # ---- Kiểm tra License ----
-    is_valid, license_msg = license_manager.validate_license(cfg)
+    # ---- Kiểm tra License trước sync và trước VLC ----
+    resource_log("[LICENSE] STARTUP CHECK")
+    license_result = license_manager.validate_license_detailed(cfg)
+    is_valid, license_msg = license_result.valid, license_result.message
     if is_valid:
         resource_log(f"[LICENSE] OK: {license_msg}")
     else:
         resource_log(f"[LICENSE] KHONG HOP LE: {license_msg}")
 
-    if not is_valid and _is_hard_license_failure(license_msg):
+    trial_reasons = {"missing_key", "missing", "cache_missing"}
+    if not is_valid and license_result.reason not in trial_reasons:
         show_message_box(
-            "ATG Signage — License không còn hiệu lực",
+            f"{APP_NAME} — License không còn hiệu lực",
             _upgrade_message(license_msg),
         )
         resource_log("[LICENSE] Tu choi khoi dong do license het han/bi khoa/sai may.")
@@ -396,7 +403,7 @@ def main():
     play_files = scan_media_files(cfg["play_folder"], recursive=True)
     if not play_files:
         show_message_box(
-            "ATG Signage — Không có nội dung",
+            f"{APP_NAME} — Không có nội dung",
             "Thư mục PLAY chưa có ảnh hoặc video hợp lệ. Vui lòng kiểm tra SOURCE và đồng bộ lại.",
         )
         resource_log("[MAIN] PLAY rong, khong khoi dong VLC.")
